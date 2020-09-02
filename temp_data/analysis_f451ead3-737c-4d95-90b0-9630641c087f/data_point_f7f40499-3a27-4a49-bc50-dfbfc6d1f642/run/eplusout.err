@@ -1,0 +1,167 @@
+Program Version,EnergyPlus, Version 9.2.0-921312fa1d, YMD=2020.07.03 13:31,
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** CheckUsedConstructions: There are 7 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** GetInternalHeatGains: People="OFFICE WHOLEBUILDING - SM OFFICE PEOPLE" has comfort related schedules but no thermal comfort model selected.
+   **   ~~~   ** If schedules are specified for air velocity, clothing insulation, and/or work efficiency but no thermal comfort
+   **   ~~~   ** thermal comfort model is selected, the schedules will be listed as unused schedules in the .err file.
+   **   ~~~   ** To avoid these errors, select a valid thermal comfort model or eliminate these schedules in the PEOPLE input.
+   ** Warning ** GetInternalHeatGains: People="OFFICE WHOLEBUILDING - SM OFFICE PEOPLE" has comfort related schedules but no thermal comfort model selected.
+   **   ~~~   ** If schedules are specified for air velocity, clothing insulation, and/or work efficiency but no thermal comfort
+   **   ~~~   ** thermal comfort model is selected, the schedules will be listed as unused schedules in the .err file.
+   **   ~~~   ** To avoid these errors, select a valid thermal comfort model or eliminate these schedules in the PEOPLE input.
+   ** Warning ** GetInternalHeatGains: People="OFFICE WHOLEBUILDING - SM OFFICE PEOPLE" has comfort related schedules but no thermal comfort model selected.
+   **   ~~~   ** If schedules are specified for air velocity, clothing insulation, and/or work efficiency but no thermal comfort
+   **   ~~~   ** thermal comfort model is selected, the schedules will be listed as unused schedules in the .err file.
+   **   ~~~   ** To avoid these errors, select a valid thermal comfort model or eliminate these schedules in the PEOPLE input.
+   ** Warning ** GetInternalHeatGains: People="OFFICE WHOLEBUILDING - SM OFFICE PEOPLE" has comfort related schedules but no thermal comfort model selected.
+   **   ~~~   ** If schedules are specified for air velocity, clothing insulation, and/or work efficiency but no thermal comfort
+   **   ~~~   ** thermal comfort model is selected, the schedules will be listed as unused schedules in the .err file.
+   **   ~~~   ** To avoid these errors, select a valid thermal comfort model or eliminate these schedules in the PEOPLE input.
+   ** Warning ** GetInternalHeatGains: People="OFFICE WHOLEBUILDING - SM OFFICE PEOPLE" has comfort related schedules but no thermal comfort model selected.
+   **   ~~~   ** If schedules are specified for air velocity, clothing insulation, and/or work efficiency but no thermal comfort
+   **   ~~~   ** thermal comfort model is selected, the schedules will be listed as unused schedules in the .err file.
+   **   ~~~   ** To avoid these errors, select a valid thermal comfort model or eliminate these schedules in the PEOPLE input.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_ZN_1 ZN", only 0.12 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_ZN_2 ZN", only 0.21 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_ZN_3 ZN", only 0.12 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="PERIMETER_ZN_4 ZN", only 0.21 of the zone is controlled.
+   ************* Beginning System Sizing Calculations
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = CORE_ZN ZN VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_ZN_1 ZN VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_ZN_2 ZN VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_ZN_3 ZN VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = PERIMETER_ZN_4 ZN VAV TERMINAL
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** Sizing: Coil:Cooling:DX:TwoStageWithHumidityControlMode "TWO STAGE DX COIL WITH HUMIDITY CONTROL": Rated air volume flow rate per watt of rated total cooling capacity is out of range.
+   **   ~~~   ** Min Rated Vol Flow Per Watt=[4.027E-005], Rated Vol Flow Per Watt=[2.222E-005], Max Rated Vol Flow Per Watt=[6.041E-005]. See Input Output Reference Manual for valid range.
+   **   ~~~   ** for CoilPerformance:DX:Cooling mode: COIL PERFORMANCE DX COOLING 1
+   ** Warning ** For object = COILPERFORMANCE:DX:COOLING, name = "COIL PERFORMANCE DX COOLING 1"
+   **   ~~~   ** Calculated outlet air relative humidity greater than 1. The combination of
+   **   ~~~   ** rated air volume flow rate, total cooling capacity and sensible heat ratio yields coil exiting
+   **   ~~~   ** air conditions above the saturation curve. Possible fixes are to reduce the rated total cooling
+   **   ~~~   ** capacity, increase the rated air volume flow rate, or reduce the rated sensible heat ratio for this coil.
+   **   ~~~   ** If autosizing, it is recommended that all three of these values be autosized.
+   **   ~~~   ** ...Inputs used for calculating cooling coil bypass factor.
+   **   ~~~   ** ...Inlet Air Temperature     = 26.67 C
+   **   ~~~   ** ...Outlet Air Temperature    = -0.19 C
+   **   ~~~   ** ...Inlet Air Humidity Ratio  = 1.125000E-002 kgWater/kgDryAir
+   **   ~~~   ** ...Outlet Air Humidity Ratio = 6.708789E-003 kgWater/kgDryAir
+   **   ~~~   ** ...Total Cooling Capacity used in calculation = 4500.00 W
+   **   ~~~   ** ...Air Mass Flow Rate used in calculation     = 0.115663 kg/s
+   **   ~~~   ** ...Air Volume Flow Rate used in calculation   = 0.100000 m3/s
+   **   ~~~   ** ...Air Volume Flow Rate per Watt of Rated Cooling Capacity is also out of bounds at = 2.2222222E-005 m3/s/W
+   **   ~~~   **  During Warmup, Environment=CHICAGO OHARE INTL AP ANN CLG .4% CONDNS DB=>MWB, at Simulation time=07/21 00:00 - 00:10
+   **   ~~~   ** CalcCBF: SHR adjusted to achieve valid outlet air properties and the simulation continues.
+   **   ~~~   ** CalcCBF: initial SHR = 0.70230
+   **   ~~~   ** CalcCBF: adjusted SHR = 0.59146
+   ** Warning ** Sizing: Coil:Cooling:DX:TwoStageWithHumidityControlMode "TWO STAGE DX COIL WITH HUMIDITY CONTROL": Rated air volume flow rate per watt of rated total cooling capacity is out of range.
+   **   ~~~   ** Min Rated Vol Flow Per Watt=[4.027E-005], Rated Vol Flow Per Watt=[2.222E-005], Max Rated Vol Flow Per Watt=[6.041E-005]. See Input Output Reference Manual for valid range.
+   **   ~~~   ** for CoilPerformance:DX:Cooling mode: COIL PERFORMANCE DX COOLING 3
+   ** Warning ** For object = COILPERFORMANCE:DX:COOLING, name = "COIL PERFORMANCE DX COOLING 3"
+   **   ~~~   ** Calculated outlet air relative humidity greater than 1. The combination of
+   **   ~~~   ** rated air volume flow rate, total cooling capacity and sensible heat ratio yields coil exiting
+   **   ~~~   ** air conditions above the saturation curve. Possible fixes are to reduce the rated total cooling
+   **   ~~~   ** capacity, increase the rated air volume flow rate, or reduce the rated sensible heat ratio for this coil.
+   **   ~~~   ** If autosizing, it is recommended that all three of these values be autosized.
+   **   ~~~   ** ...Inputs used for calculating cooling coil bypass factor.
+   **   ~~~   ** ...Inlet Air Temperature     = 26.67 C
+   **   ~~~   ** ...Outlet Air Temperature    = -0.19 C
+   **   ~~~   ** ...Inlet Air Humidity Ratio  = 1.125000E-002 kgWater/kgDryAir
+   **   ~~~   ** ...Outlet Air Humidity Ratio = 6.708789E-003 kgWater/kgDryAir
+   **   ~~~   ** ...Total Cooling Capacity used in calculation = 4500.00 W
+   **   ~~~   ** ...Air Mass Flow Rate used in calculation     = 0.115663 kg/s
+   **   ~~~   ** ...Air Volume Flow Rate used in calculation   = 0.100000 m3/s
+   **   ~~~   ** ...Air Volume Flow Rate per Watt of Rated Cooling Capacity is also out of bounds at = 2.2222222E-005 m3/s/W
+   **   ~~~   **  During Warmup, Environment=CHICAGO OHARE INTL AP ANN CLG .4% CONDNS DB=>MWB, at Simulation time=07/21 00:00 - 00:10
+   **   ~~~   ** CalcCBF: SHR adjusted to achieve valid outlet air properties and the simulation continues.
+   **   ~~~   ** CalcCBF: initial SHR = 0.70230
+   **   ~~~   ** CalcCBF: adjusted SHR = 0.59146
+   ** Warning ** Missing temperature setpoint for LeavingSetpointModulated mode Boiler named BOILER 124KBTU/HR 0.8 AFUE
+   **   ~~~   **   A temperature setpoint is needed at the outlet node of a boiler in variable flow mode
+   **   ~~~   **   use a Setpoint Manager to establish a setpoint at the boiler outlet node 
+   **   ~~~   **   or use an EMS actuator to establish a setpoint at the boiler outlet node 
+   **   ~~~   **   The overall loop setpoint will be assumed for Boiler. The simulation continues ... 
+   ** Warning ** SizePlantLoop: Calculated Plant Sizing Design Volume Flow Rate=[0.00] is too small. Set to 0.0
+   **   ~~~   ** ..occurs for PlantLoop=MAIN SERVICE WATER LOOP
+   ** Warning ** SizePump: Calculated Pump Nominal Volume Flow Rate=[0.00] is too small. Set to 0.0
+   **   ~~~   ** ..occurs for Pump=MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN
+   ** Warning ** Check input. Pump nominal power or motor efficiency is set to 0, for pump=MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN
+   ** Warning ** Check input. Pump nominal flow rate is set or calculated = 0, for pump=MAIN SERVICE WATER LOOP WATER MAINS PRESSURE DRIVEN
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTCOOLING:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTHEATING:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:TwoStageWithHumidityControlMode="TWO STAGE DX COIL WITH HUMIDITY CONTROL" - Air volume flow rate per watt of rated total cooling capacity is out of range at 1.318E-004 m3/s/W.
+   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=02/23 09:20 - 09:30
+   **   ~~~   ** Expected range for VolumeFlowPerRatedTotalCapacity=[2.684E-005--6.713E-005]
+   **   ~~~   ** Possible causes include inconsistent air flow rates in system components,
+   **   ~~~   ** or variable air volume [VAV] system using incorrect coil type.
+   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:TwoStageWithHumidityControlMode "TWO STAGE DX COIL WITH HUMIDITY CONTROL" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -2.71 C.
+   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 03/10 10:30 - 10:40
+   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil
+   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.466 C.
+   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.
+   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-DISTILLATE OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-RESIDUAL OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-NATURAL GAS" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-COAL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ************* Simulation Error Summary *************
+   ************* There are 10 unused schedules in input.
+   ************* There are 10 unused week schedules in input.
+   ************* There are 19 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:TwoStageWithHumidityControlMode="TWO STAGE DX COIL WITH HUMIDITY CONTROL" - Air volume flow rate per watt of rated total cooling capacity is out of range error continues...
+   *************  **   ~~~   **   This error occurred 359710 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=3.088822E-004  Min=6.713652E-005
+   *************
+   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:TwoStageWithHumidityControlMode="TWO STAGE DX COIL WITH HUMIDITY CONTROL" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:
+   *************  **   ~~~   **   This error occurred 656 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.992782  Min=-3.060985
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 17 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 360401 Warning; 0 Severe Errors; Elapsed Time=00hr 03min 33.72sec

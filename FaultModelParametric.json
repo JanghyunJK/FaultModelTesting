@@ -1,0 +1,2044 @@
+{
+  "analysis": {
+    "display_name": "FaultModelParametric",
+    "name": "FaultModelParametric",
+    "output_variables": [
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "electricity_ip",
+        "display_name_short": "electricity_ip",
+        "metadata_id": null,
+        "name": "openstudio_results.electricity_ip",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "natural_gas_ip",
+        "display_name_short": "natural_gas_ip",
+        "metadata_id": null,
+        "name": "openstudio_results.natural_gas_ip",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "additional_fuel_ip",
+        "display_name_short": "additional_fuel_ip",
+        "metadata_id": null,
+        "name": "openstudio_results.additional_fuel_ip",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "district_heating_ip",
+        "display_name_short": "district_heating_ip",
+        "metadata_id": null,
+        "name": "openstudio_results.district_heating_ip",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "district_cooling_ip",
+        "display_name_short": "district_cooling_ip",
+        "metadata_id": null,
+        "name": "openstudio_results.district_cooling_ip",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "total_site_eui",
+        "display_name_short": "total_site_eui",
+        "metadata_id": null,
+        "name": "openstudio_results.total_site_eui",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "eui",
+        "display_name_short": "eui",
+        "metadata_id": null,
+        "name": "openstudio_results.eui",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "net_site_energy",
+        "display_name_short": "net_site_energy",
+        "metadata_id": null,
+        "name": "openstudio_results.net_site_energy",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "annual_peak_electric_demand",
+        "display_name_short": "annual_peak_electric_demand",
+        "metadata_id": null,
+        "name": "openstudio_results.annual_peak_electric_demand",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "unmet_hours_during_occupied_cooling",
+        "display_name_short": "unmet_hours_during_occupied_cooling",
+        "metadata_id": null,
+        "name": "openstudio_results.unmet_hours_during_occupied_cooling",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "unmet_hours_during_occupied_heating",
+        "display_name_short": "unmet_hours_during_occupied_heating",
+        "metadata_id": null,
+        "name": "openstudio_results.unmet_hours_during_occupied_heating",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "first_year_capital_cost",
+        "display_name_short": "first_year_capital_cost",
+        "metadata_id": null,
+        "name": "openstudio_results.first_year_capital_cost",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "annual_utility_cost",
+        "display_name_short": "annual_utility_cost",
+        "metadata_id": null,
+        "name": "openstudio_results.annual_utility_cost",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      },
+      {
+        "objective_function": false,
+        "objective_function_index": null,
+        "objective_function_target": null,
+        "objective_function_group": null,
+        "scaling_factor": null,
+        "display_name": "total_lifecycle_cost",
+        "display_name_short": "total_lifecycle_cost",
+        "metadata_id": null,
+        "name": "openstudio_results.total_lifecycle_cost",
+        "visualize": true,
+        "export": true,
+        "variable_type": "double"
+      }
+    ],
+    "problem": {
+      "workflow": [
+        {
+          "name": "economizer_opening_stuck",
+          "display_name": "Economizer Opening Stuck",
+          "measure_type": "RubyMeasure",
+          "measure_definition_class_name": "EconomizerOpeningStuck",
+          "measure_definition_directory": "./measures/EconomizerOpeningStuck",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\EconomizerOpeningStuck",
+          "measure_definition_display_name": "Economizer Opening Stuck",
+          "measure_definition_name": "economizer_opening_stuck",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "2a4a6312-c5d6-40e6-a8a0-cbd552a5949b",
+          "measure_definition_version_uuid": "e7ddc6fa-24ed-4ec9-b5d1-9bd85231ebf5",
+          "uuid": "2a4a6312-c5d6-40e6-a8a0-cbd552a5949b",
+          "version_uuid": "e7ddc6fa-24ed-4ec9-b5d1-9bd85231ebf5",
+          "description": "Stuck dampers associated with economizers can be caused by seized actuators, broken linkages, economizer control system failures, or the failure of sensors that are used to determine damper position. In extreme cases, dampers stuck at either 100% open or closed can have a serious impact on system energy consumption or occupant comfort in the space. This fault is categorized as a fault that occur in the economizer system (damper) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates a stuck damper by modifying the Controller:OutdoorAir object in EnergyPlus. The fault intensity (F) for this fault is defined as the ratio of economizer damper at the stuck position (0 = fully closed, 1 = fully open).",
+          "taxonomy": "HVAC.HVAC Controls",
+          "arguments": [
+            {
+              "display_name": "Choice of economizers. If you want to impose the fault on all economizers, choose * ALL Controller:OutdoorAir *",
+              "display_name_short": "econ_choice",
+              "name": "econ_choice",
+              "value_type": "string",
+              "default_value": "* ALL Controller:OutdoorAir *",
+              "value": "* ALL Controller:OutdoorAir *"
+            },
+            {
+              "display_name": "Check if a schedule of fault presence is needed, or uncheck to apply the fault for the entire simulation.",
+              "display_name_short": "schedule_exist",
+              "name": "schedule_exist",
+              "value_type": "boolean",
+              "default_value": false,
+              "value": false
+            },
+            {
+              "display_name": "Choice of fault presence schedule:",
+              "display_name_short": "sch_choice",
+              "name": "sch_choice",
+              "value_type": "string",
+              "default_value": "Always On Discrete",
+              "value": "Always On Discrete"
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "The position of damper indicated between 0 and 1. If it is -1 and a schedule of fault prevalence is not given, the fault model will not be imposed to the building simulation without warning.",
+                "display_name_short": "damper_pos",
+                "name": "damper_pos",
+                "value_type": "double",
+                "default_value": 0.5,
+                "value": 0.5
+              },
+              "display_name": "The position of damper indicated between 0 and 1. If it is -1 and a schedule of fault prevalence is not given, the fault model will not be imposed to the building simulation without warning.",
+              "display_name_short": "damper_pos",
+              "variable_type": "variable",
+              "minimum": 0.5,
+              "maximum": 0.5,
+              "static_value": 0.5,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": 0.5,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": 0.5
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": 0.5
+                  },
+                  {
+                    "name": "modes",
+                    "value": 0.5
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": 0.5
+                  },
+                  {
+                    "name": "stddev",
+                    "value": 0.5
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 0
+        },
+        {
+          "name": "hvac_setback_error_delayed_onset",
+          "display_name": "HVAC Setback Error: Delayed Onset",
+          "measure_type": "RubyMeasure",
+          "measure_definition_class_name": "HVACSetbackErrorDelayedOnset",
+          "measure_definition_directory": "./measures/HVACSetbackErrorDelayedOnset",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\HVACSetbackErrorDelayedOnset",
+          "measure_definition_display_name": "HVAC Setback Error: Delayed Onset",
+          "measure_definition_name": "hvac_setback_error_delayed_onset",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "fa0f7ae0-8ff7-4484-8a91-842a42656284",
+          "measure_definition_version_uuid": "11c946bc-f53d-4bd2-a74a-076fe81831a7",
+          "uuid": "fa0f7ae0-8ff7-4484-8a91-842a42656284",
+          "version_uuid": "11c946bc-f53d-4bd2-a74a-076fe81831a7",
+          "description": "Thermostat schedules are employed to raise set points for cooling and lower set points for heating at night, to switch fan operation from being continuously on during occupied times to being coupled to cooling or heating demands at other times, and to close ventilation dampers during unoccupied periods. Faults can occur due to malfunctioning, unprogrammed, or incorrectly programmed or scheduled thermostats, leading to increased energy consumption and/or compromised comfort and air quality. This fault is categorized as a fault that occur in the HVAC system (controller) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of overnight HVAC setback being delayed until unoccupied hours by modifying the Schedule:Compact object in EnergyPlus assigned to thermostat set point schedules. The fault intensity (F) defined as the delay in onset of overnight HVAC setback (in hours).",
+          "taxonomy": "HVAC.HVAC Controls",
+          "arguments": [
+            {
+              "display_name": "Zone. Choose * All Zones * if you want to impose the fault in all zones",
+              "display_name_short": "zone",
+              "name": "zone",
+              "value_type": "string",
+              "default_value": "* All Zones *",
+              "value": "* All Zones *"
+            },
+            {
+              "display_name": "Fault active start month",
+              "display_name_short": "start_month",
+              "name": "start_month",
+              "value_type": "string",
+              "default_value": "January",
+              "value": "January"
+            },
+            {
+              "display_name": "Fault active end month",
+              "display_name_short": "end_month",
+              "name": "end_month",
+              "value_type": "string",
+              "default_value": "December",
+              "value": "December"
+            },
+            {
+              "display_name": "Day of the week",
+              "display_name_short": "dayofweek",
+              "name": "dayofweek",
+              "value_type": "string",
+              "default_value": "All days",
+              "value": "All days"
+            },
+            {
+              "display_name": "Extend Air Loop Availability with same intensity as thermostat setpoint",
+              "display_name_short": "ext_hr_airloop",
+              "name": "ext_hr_airloop",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Number of operating hours extended to the evening.",
+                "display_name_short": "ext_hr",
+                "name": "ext_hr",
+                "value_type": "double",
+                "default_value": 1,
+                "value": 2
+              },
+              "display_name": "Number of operating hours extended to the evening.",
+              "display_name_short": "ext_hr",
+              "variable_type": "variable",
+              "minimum": 1,
+              "maximum": 1,
+              "static_value": 2,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": 2,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": 1
+                  },
+                  {
+                    "name": "stddev",
+                    "value": 1
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 1
+        },
+        {
+          "name": "hvac_setback_error_early_termination",
+          "display_name": "HVAC Setback Error: Early Termination",
+          "measure_type": "RubyMeasure",
+          "measure_definition_class_name": "HVACSetbackErrorEarlyTermination",
+          "measure_definition_directory": "./measures/HVACSetbackErrorEarlyTermination",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\HVACSetbackErrorEarlyTermination",
+          "measure_definition_display_name": "HVAC Setback Error: Early Termination",
+          "measure_definition_name": "hvac_setback_error_early_termination",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "d6a0f476-5b23-4273-ae00-93e55fa5f917",
+          "measure_definition_version_uuid": "10e5da13-063c-4dbc-8edd-b1576cf0a305",
+          "uuid": "d6a0f476-5b23-4273-ae00-93e55fa5f917",
+          "version_uuid": "10e5da13-063c-4dbc-8edd-b1576cf0a305",
+          "description": "Thermostat schedules are employed to raise set points for cooling and lower set points for heating at night, to switch fan operation from being continuously on during occupied times to being coupled to cooling or heating demands at other times, and to close ventilation dampers during unoccupied periods. Faults can occur due to malfunctioning, unprogrammed, or incorrectly programmed or scheduled thermostats, leading to increased energy consumption and/or compromised comfort and air quality. This fault is categorized as a fault that occur in the HVAC system (controller) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of overnight HVAC setback being terminated earlier during unoccupied hours by modifying the Schedule:Compact object in EnergyPlus assigned to thermostat set point schedules. The fault intensity (F) is defined as the early termination of overnight HVAC setback (in hours).",
+          "taxonomy": "HVAC.HVAC Controls",
+          "arguments": [
+            {
+              "display_name": "Zone. Choose * All Zones * if you want to impose the fault in all zones",
+              "display_name_short": "zone",
+              "name": "zone",
+              "value_type": "string",
+              "default_value": "* All Zones *",
+              "value": "* All Zones *"
+            },
+            {
+              "display_name": "Fault active start month",
+              "display_name_short": "start_month",
+              "name": "start_month",
+              "value_type": "string",
+              "default_value": "January",
+              "value": "January"
+            },
+            {
+              "display_name": "Fault active end month",
+              "display_name_short": "end_month",
+              "name": "end_month",
+              "value_type": "string",
+              "default_value": "December",
+              "value": "December"
+            },
+            {
+              "display_name": "Day of the week",
+              "display_name_short": "dayofweek",
+              "name": "dayofweek",
+              "value_type": "string",
+              "default_value": "All days",
+              "value": "All days"
+            },
+            {
+              "display_name": "Extend Air Loop Availability with same intensity as thermostat setpoint",
+              "display_name_short": "ext_hr_airloop",
+              "name": "ext_hr_airloop",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Number of operating hours extended to the morning.",
+                "display_name_short": "ext_hr",
+                "name": "ext_hr",
+                "value_type": "double",
+                "default_value": 1,
+                "value": 1
+              },
+              "display_name": "Number of operating hours extended to the morning.",
+              "display_name_short": "ext_hr",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": 1,
+              "maximum": 1,
+              "static_value": 1,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": 2,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": 1
+                  },
+                  {
+                    "name": "stddev",
+                    "value": 1
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 2
+        },
+        {
+          "name": "lighting_setback_error_delayed_onset",
+          "display_name": "Lighting Setback Error: Delayed Onset",
+          "measure_type": "RubyMeasure",
+          "measure_definition_class_name": "LightingSetbackErrorDelayedOnset",
+          "measure_definition_directory": "./measures/LightingSetbackErrorDelayedOnset",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\LightingSetbackErrorDelayedOnset",
+          "measure_definition_display_name": "Lighting Setback Error: Delayed Onset",
+          "measure_definition_name": "lighting_setback_error_delayed_onset",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "e97755d6-9e77-418e-8292-7c177ab1653c",
+          "measure_definition_version_uuid": "2f84ccf5-8212-4385-805a-33e0b52da8c3",
+          "uuid": "e97755d6-9e77-418e-8292-7c177ab1653c",
+          "version_uuid": "2f84ccf5-8212-4385-805a-33e0b52da8c3",
+          "description": "Lighting should be turned off or at least reduced during unoccupied hours. However, some commissioning studies have found noticeable lighting energy use at night either because lighting schedules are improperly configured or occupants forget to turn off lights when vacating a building. This fault is categorized as a fault that occur in the lighting system (controller) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of lighting setback being delayed until unoccupied hours by modifying the Schedule:Compact object in EnergyPlus assigned to lighting schedules. The fault intensity (F) is defined as the delay in the onset of overnight lighting setback (in hours).",
+          "taxonomy": "Electric Lighting.Electric Lighting Controls",
+          "arguments": [
+            {
+              "display_name": "Zone. Choose * All Zones * if you want to impose the fault in all zones",
+              "display_name_short": "zone",
+              "name": "zone",
+              "value_type": "string",
+              "default_value": "* All Zones *",
+              "value": "* All Zones *"
+            },
+            {
+              "display_name": "Fault active start month",
+              "display_name_short": "start_month",
+              "name": "start_month",
+              "value_type": "string",
+              "default_value": "January",
+              "value": "January"
+            },
+            {
+              "display_name": "Fault active end month",
+              "display_name_short": "end_month",
+              "name": "end_month",
+              "value_type": "string",
+              "default_value": "December",
+              "value": "December"
+            },
+            {
+              "display_name": "Day of the week",
+              "display_name_short": "dayofweek",
+              "name": "dayofweek",
+              "value_type": "string",
+              "default_value": "All days",
+              "value": "All days"
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Number of operating hours extended to the evening.",
+                "display_name_short": "ext_hr",
+                "name": "ext_hr",
+                "value_type": "double",
+                "default_value": 1,
+                "value": 1
+              },
+              "display_name": "Number of operating hours extended to the evening.",
+              "display_name_short": "ext_hr",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": 1,
+              "maximum": 1,
+              "static_value": 1,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": 2,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": 1
+                  },
+                  {
+                    "name": "stddev",
+                    "value": 1
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 3
+        },
+        {
+          "name": "lighting_setback_error_early_termination",
+          "display_name": "Lighting Setback Error: Early Termination",
+          "measure_type": "RubyMeasure",
+          "measure_definition_class_name": "LightingSetbackErrorEarlyTermination",
+          "measure_definition_directory": "./measures/LightingSetbackErrorEarlyTermination",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\LightingSetbackErrorEarlyTermination",
+          "measure_definition_display_name": "Lighting Setback Error: Early Termination",
+          "measure_definition_name": "lighting_setback_error_early_termination",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "4068e01b-f572-4805-9d49-a5067c5246ff",
+          "measure_definition_version_uuid": "5f761fe4-dfd6-4897-8a44-2035fedda07e",
+          "uuid": "4068e01b-f572-4805-9d49-a5067c5246ff",
+          "version_uuid": "5f761fe4-dfd6-4897-8a44-2035fedda07e",
+          "description": "Lighting should be turned off or at least reduced during unoccupied hours. However, some commissioning studies have found noticeable lighting energy use at night either because lighting schedules are improperly configured or occupants forget to turn off lights when vacating a building. This fault is categorized as a fault that occur in the lighting system (controller) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of the lighting setback being terminated earlier during unoccupied hours by modifying the Schedule:Compact object in EnergyPlus assigned to lighting schedules. The fault intensity (F) is defined as the early termination of overnight lighting setback (in hours).",
+          "taxonomy": "Electric Lighting.Electric Lighting Controls",
+          "arguments": [
+            {
+              "display_name": "Zone. Choose * All Zones * if you want to impose the fault in all zones",
+              "display_name_short": "zone",
+              "name": "zone",
+              "value_type": "string",
+              "default_value": "* All Zones *",
+              "value": "* All Zones *"
+            },
+            {
+              "display_name": "Fault active start month",
+              "display_name_short": "start_month",
+              "name": "start_month",
+              "value_type": "string",
+              "default_value": "January",
+              "value": "January"
+            },
+            {
+              "display_name": "Fault active end month",
+              "display_name_short": "end_month",
+              "name": "end_month",
+              "value_type": "string",
+              "default_value": "December",
+              "value": "December"
+            },
+            {
+              "display_name": "Day of the week",
+              "display_name_short": "dayofweek",
+              "name": "dayofweek",
+              "value_type": "string",
+              "default_value": "All days",
+              "value": "All days"
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Number of operating hours extended to the morning.",
+                "display_name_short": "ext_hr",
+                "name": "ext_hr",
+                "value_type": "double",
+                "default_value": 1,
+                "value": 1
+              },
+              "display_name": "Number of operating hours extended to the morning.",
+              "display_name_short": "ext_hr",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": 1,
+              "maximum": 1,
+              "static_value": 1,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": 2,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": 1
+                  },
+                  {
+                    "name": "stddev",
+                    "value": 1
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 4
+        },
+        {
+          "name": "thermostat_bias",
+          "display_name": "Thermostat Measurement Bias",
+          "measure_type": "RubyMeasure",
+          "measure_definition_class_name": "ThermostatBias",
+          "measure_definition_directory": "./measures/ThermostatBias",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\ThermostatBias",
+          "measure_definition_display_name": "Thermostat Measurement Bias",
+          "measure_definition_name": "thermostat_bias",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "e359373a-ea8b-459d-a4c0-e2e8ae78b840",
+          "measure_definition_version_uuid": "e0938397-e497-4378-ac1b-71e56e18fb28",
+          "uuid": "e359373a-ea8b-459d-a4c0-e2e8ae78b840",
+          "version_uuid": "e0938397-e497-4378-ac1b-71e56e18fb28",
+          "description": "Drift of the thermostat temperature sensor over time can lead to increased energy use and/or reduced occupant comfort. This fault is categorized as a fault that occur in the indoor thermostats (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates a biased thermostat by modifying the Schedule:Compact object in EnergyPlus assigned to heating and cooling set points. The fault intensity (F) is defined as the thermostat measurement bias (K). A positive number means that the sensor is reading a temperature higher than the true temperature.",
+          "taxonomy": "HVAC.HVAC Controls",
+          "arguments": [
+            {
+              "display_name": "Zone. Choose * All Zones * if you want to impose the fault in all zones",
+              "display_name_short": "zone",
+              "name": "zone",
+              "value_type": "string",
+              "default_value": "* All Zones *",
+              "value": "* All Zones *"
+            },
+            {
+              "display_name": "Enter the time required for fault to reach full level [hr]",
+              "display_name_short": "time_constant",
+              "name": "time_constant",
+              "value_type": "double",
+              "default_value": 0,
+              "value": 0
+            },
+            {
+              "display_name": "Fault active start month",
+              "display_name_short": "start_month",
+              "name": "start_month",
+              "value_type": "string",
+              "default_value": "January",
+              "value": "January"
+            },
+            {
+              "display_name": "Enter the date (1-28/30/31) when the fault starts to occur",
+              "display_name_short": "start_date",
+              "name": "start_date",
+              "value_type": "double",
+              "default_value": 1,
+              "value": 1
+            },
+            {
+              "display_name": "Fault active end month",
+              "display_name_short": "end_month",
+              "name": "end_month",
+              "value_type": "string",
+              "default_value": "December",
+              "value": "December"
+            },
+            {
+              "display_name": "Enter the date (1-28/30/31) when the fault ends",
+              "display_name_short": "end_date",
+              "name": "end_date",
+              "value_type": "double",
+              "default_value": 31,
+              "value": 31
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Enter the constant setpoint bias level [K] [0=Non faulted case]",
+                "display_name_short": "bias_level",
+                "name": "bias_level",
+                "value_type": "double",
+                "default_value": 0,
+                "value": 0
+              },
+              "display_name": "Enter the constant setpoint bias level [K] [0=Non faulted case]",
+              "display_name_short": "bias_level",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": 0,
+              "maximum": 0,
+              "static_value": 0,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": 3,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": 0
+                  },
+                  {
+                    "name": "modes",
+                    "value": 0
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": 0
+                  },
+                  {
+                    "name": "stddev",
+                    "value": 0
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 5
+        },
+        {
+          "name": "improper_time_delay_setting_in_occupancy_sensors",
+          "display_name": "Improper Time Delay Setting in Occupancy Sensors",
+          "measure_type": "RubyMeasure",
+          "measure_definition_class_name": "ImproperTimeDelaySettingInOccupancySensors",
+          "measure_definition_directory": "./measures/ImproperTimeDelaySettingInOccupancySensors",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\ImproperTimeDelaySettingInOccupancySensors",
+          "measure_definition_display_name": "Improper Time Delay Setting in Occupancy Sensors",
+          "measure_definition_name": "improper_time_delay_setting_in_occupancy_sensors",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "80bceaba-6cd1-43ba-b322-4ad17e72e22a",
+          "measure_definition_version_uuid": "5ccd8d0d-8ed8-47fd-adea-f22e2130e157",
+          "uuid": "80bceaba-6cd1-43ba-b322-4ad17e72e22a",
+          "version_uuid": "5ccd8d0d-8ed8-47fd-adea-f22e2130e157",
+          "description": "Compared to scheduled lighting operation, using an occupancy sensor for the lighting control is more suitable when the space is intermittently occupied. In other words, when the space is left with the lights on for large amount of portion throughout the day, it is better to use the occupancy sensor to save the lighting energy consumption. However, setting a time delay in the occupancy sensor is a trade-off between occupant’s visual discomfort and energy savings. If the time delay is too short, chances increase for energy savings. But on the other side, lights being on and off too often increases visual discomfort for occupants in the space. 15 minutes of time delay is common in the real application, however, the setting can be improperly implemented in the field. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of an improper time delay setting in occupancy sensors by modifying the Schedule:Compact object in EnergyPlus assigned to lighting schedules. This fault is categorized as a fault that occur in the lighting system (controller) during the operation stage. The fault intensity (F) is defined as the delayed time setting (in hours).",
+          "taxonomy": "Electric Lighting.Electric Lighting Controls",
+          "arguments": [
+            {
+              "display_name": "Zone. Choose * All Zones * if you want to impose the fault in all zones",
+              "display_name_short": "zone",
+              "name": "zone",
+              "value_type": "string",
+              "default_value": "* All Zones *",
+              "value": "* All Zones *"
+            },
+            {
+              "display_name": "Fault active start month",
+              "display_name_short": "start_month",
+              "name": "start_month",
+              "value_type": "string",
+              "default_value": "January",
+              "value": "January"
+            },
+            {
+              "display_name": "Fault active end month",
+              "display_name_short": "end_month",
+              "name": "end_month",
+              "value_type": "string",
+              "default_value": "December",
+              "value": "December"
+            },
+            {
+              "display_name": "Day of the week",
+              "display_name_short": "dayofweek",
+              "name": "dayofweek",
+              "value_type": "string",
+              "default_value": "All days",
+              "value": "All days"
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Number of operating hours delayed.",
+                "display_name_short": "ext_hr",
+                "name": "ext_hr",
+                "value_type": "double",
+                "default_value": 1,
+                "value": 1
+              },
+              "display_name": "Number of operating hours delayed.",
+              "display_name_short": "ext_hr",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": 1,
+              "maximum": 1,
+              "static_value": 1,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": 2,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": 1
+                  },
+                  {
+                    "name": "modes",
+                    "value": 1
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": 1
+                  },
+                  {
+                    "name": "stddev",
+                    "value": 1
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 6
+        },
+        {
+          "name": "biased_economizer_sensor_mixed_t",
+          "display_name": "Biased Economizer Sensor: Mixed Temperature",
+          "measure_type": "EnergyPlusMeasure",
+          "measure_definition_class_name": "BiasedEconomizerSensorMixedT",
+          "measure_definition_directory": "./measures/BiasedEconomizerSensorMixedT",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\BiasedEconomizerSensorMixedT",
+          "measure_definition_display_name": "Biased Economizer Sensor: Mixed Temperature",
+          "measure_definition_name": "biased_economizer_sensor_mixed_t",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "3a9ab8b0-6fe8-4395-9f3e-57726ae4edaa",
+          "measure_definition_version_uuid": "fbf27f32-9629-4fea-9f58-23e08f889e45",
+          "uuid": "3a9ab8b0-6fe8-4395-9f3e-57726ae4edaa",
+          "version_uuid": "fbf27f32-9629-4fea-9f58-23e08f889e45",
+          "description": "When sensors drift and are not regularly calibrated, it causes a bias. Sensor readings often drift from their calibration with age, causing equipment control algorithms to produce outputs that deviate from their intended function. This fault is categorized as a fault that occur in the economizer system (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the biased economizer sensor (mixed air temperature) by modifying the SetpointManager object assigned to the economizer. The fault intensity (F) is defined as the biased temperature level (K). A positive number means that the sensor is reading a temperature higher than the true temperature.",
+          "taxonomy": "HVAC.HVAC Controls",
+          "arguments": [
+            {
+              "display_name": "Choice of economizers.",
+              "display_name_short": "econ_choice",
+              "name": "econ_choice",
+              "value_type": "string",
+              "default_value": "Controller Outdoor Air 1",
+              "value": "Controller Outdoor Air 1"
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Enter the bias level of the mixed air temperature sensor. A positive number means that the sensor is reading a temperature higher than the true temperature. (K)",
+                "display_name_short": "mix_temp_bias",
+                "name": "mix_temp_bias",
+                "value_type": "double",
+                "default_value": 2,
+                "value": 2
+              },
+              "display_name": "Enter the bias level of the mixed air temperature sensor. A positive number means that the sensor is reading a temperature higher than the true temperature. (K)",
+              "display_name_short": "mix_temp_bias",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": 2,
+              "maximum": 2,
+              "static_value": 2,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": 2,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": 2
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": 2
+                  },
+                  {
+                    "name": "modes",
+                    "value": 2
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": 2
+                  },
+                  {
+                    "name": "stddev",
+                    "value": 2
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 7
+        },
+        {
+          "name": "biased_economizer_sensor_outdoor_rh",
+          "display_name": "Biased Economizer Sensor: Outdoor RH",
+          "measure_type": "EnergyPlusMeasure",
+          "measure_definition_class_name": "BiasedEconomizerSensorOutdoorRH",
+          "measure_definition_directory": "./measures/BiasedEconomizerSensorOutdoorRH",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\BiasedEconomizerSensorOutdoorRH",
+          "measure_definition_display_name": "Biased Economizer Sensor: Outdoor RH",
+          "measure_definition_name": "biased_economizer_sensor_outdoor_rh",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "cb5d34a2-7980-44bb-8a41-1f2cb262fd81",
+          "measure_definition_version_uuid": "373c6d14-0ea3-4a88-a551-b31a55ec283e",
+          "uuid": "cb5d34a2-7980-44bb-8a41-1f2cb262fd81",
+          "version_uuid": "373c6d14-0ea3-4a88-a551-b31a55ec283e",
+          "description": "When sensors drift and are not regularly calibrated, it causes a bias. Sensor readings often drift from their calibration with age, causing equipment control algorithms to produce outputs that deviate from their intended function. A positive bias in the economizer outdoor relative humidity (RH) sensor leads to a higher estimate in the outdoor air enthalpy, which shifts the economizer switch-off point and could cause higher cooling or heating energy consumption. This fault is categorized as a fault that occur in the economizer system (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the biased economizer sensor (outdoor air RH) by modifying the Controller:OutdoorAir object in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the biased RH level (%). A positive number means that the sensor is reading a relative humidity higher than the true relative humidity.",
+          "taxonomy": "HVAC.HVAC Controls",
+          "arguments": [
+            {
+              "display_name": "Choice of economizers.",
+              "display_name_short": "econ_choice",
+              "name": "econ_choice",
+              "value_type": "string",
+              "default_value": "Controller Outdoor Air 1",
+              "value": "Controller Outdoor Air 1"
+            },
+            {
+              "display_name": "Enter the time required for fault to reach full level [hr]",
+              "display_name_short": "time_constant",
+              "name": "time_constant",
+              "value_type": "double",
+              "default_value": 0,
+              "value": 0
+            },
+            {
+              "display_name": "Enter the month (1-12) when the fault starts to occur",
+              "display_name_short": "start_month",
+              "name": "start_month",
+              "value_type": "double",
+              "default_value": 1,
+              "value": 1
+            },
+            {
+              "display_name": "Enter the date (1-28/30/31) when the fault starts to occur",
+              "display_name_short": "start_date",
+              "name": "start_date",
+              "value_type": "double",
+              "default_value": 1,
+              "value": 1
+            },
+            {
+              "display_name": "Enter the time of day (0-24) when the fault starts to occur",
+              "display_name_short": "start_time",
+              "name": "start_time",
+              "value_type": "double",
+              "default_value": 0,
+              "value": 0
+            },
+            {
+              "display_name": "Enter the month (1-12) when the fault ends",
+              "display_name_short": "end_month",
+              "name": "end_month",
+              "value_type": "double",
+              "default_value": 12,
+              "value": 12
+            },
+            {
+              "display_name": "Enter the date (1-28/30/31) when the fault ends",
+              "display_name_short": "end_date",
+              "name": "end_date",
+              "value_type": "double",
+              "default_value": 31,
+              "value": 31
+            },
+            {
+              "display_name": "Enter the time of day (0-24) when the fault ends",
+              "display_name_short": "end_time",
+              "name": "end_time",
+              "value_type": "double",
+              "default_value": 23,
+              "value": 23
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Enter the bias level of the return air relative humidity sensor. A positive number means that the sensor is reading a relative humidity higher than the true relative humidity. [%]",
+                "display_name_short": "oa_rh_bias",
+                "name": "oa_rh_bias",
+                "value_type": "double",
+                "default_value": -10,
+                "value": -10
+              },
+              "display_name": "Enter the bias level of the return air relative humidity sensor. A positive number means that the sensor is reading a relative humidity higher than the true relative humidity. [%]",
+              "display_name_short": "oa_rh_bias",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": -10,
+              "maximum": -10,
+              "static_value": -10,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": -10,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": -10
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": -10
+                  },
+                  {
+                    "name": "modes",
+                    "value": -10
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": -10
+                  },
+                  {
+                    "name": "stddev",
+                    "value": -10
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 8
+        },
+        {
+          "name": "biased_economizer_sensor_oat",
+          "display_name": "Biased Economizer Sensor: Outdoor Temperature",
+          "measure_type": "EnergyPlusMeasure",
+          "measure_definition_class_name": "BiasedEconomizerSensorOAT",
+          "measure_definition_directory": "./measures/BiasedEconomizerSensorOutdoorT",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\BiasedEconomizerSensorOutdoorT",
+          "measure_definition_display_name": "Biased Economizer Sensor: Outdoor Temperature",
+          "measure_definition_name": "biased_economizer_sensor_oat",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "75ad65c1-1f17-4fa3-be05-13a3bb415fbe",
+          "measure_definition_version_uuid": "c4d6fd48-c3a6-4ada-b408-4b0f4c307064",
+          "uuid": "75ad65c1-1f17-4fa3-be05-13a3bb415fbe",
+          "version_uuid": "c4d6fd48-c3a6-4ada-b408-4b0f4c307064",
+          "description": "When sensors drift and are not regularly calibrated, it causes a bias. Sensor readings often drift from their calibration with age, causing equipment control algorithms to produce outputs that deviate from their intended function. This fault is categorized as a fault that occur in the economizer system (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the biased economizer sensor (outdoor temperature) by modifying Controller:OutdoorAir object in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the biased temperature level (K). A positive number means that the sensor is reading a temperature higher than the true temperature.",
+          "taxonomy": "HVAC.HVAC Controls",
+          "arguments": [
+            {
+              "display_name": "Choice of economizers.",
+              "display_name_short": "econ_choice",
+              "name": "econ_choice",
+              "value_type": "string",
+              "default_value": "Controller Outdoor Air 1",
+              "value": "Controller Outdoor Air 1"
+            },
+            {
+              "display_name": "Enter the time required for fault to reach full level [hr]",
+              "display_name_short": "time_constant",
+              "name": "time_constant",
+              "value_type": "double",
+              "default_value": 0,
+              "value": 0
+            },
+            {
+              "display_name": "Enter the month (1-12) when the fault starts to occur",
+              "display_name_short": "start_month",
+              "name": "start_month",
+              "value_type": "double",
+              "default_value": 1,
+              "value": 1
+            },
+            {
+              "display_name": "Enter the date (1-28/30/31) when the fault starts to occur",
+              "display_name_short": "start_date",
+              "name": "start_date",
+              "value_type": "double",
+              "default_value": 1,
+              "value": 1
+            },
+            {
+              "display_name": "Enter the time of day (0-24) when the fault starts to occur",
+              "display_name_short": "start_time",
+              "name": "start_time",
+              "value_type": "double",
+              "default_value": 0,
+              "value": 0
+            },
+            {
+              "display_name": "Enter the month (1-12) when the fault ends",
+              "display_name_short": "end_month",
+              "name": "end_month",
+              "value_type": "double",
+              "default_value": 12,
+              "value": 12
+            },
+            {
+              "display_name": "Enter the date (1-28/30/31) when the fault ends",
+              "display_name_short": "end_date",
+              "name": "end_date",
+              "value_type": "double",
+              "default_value": 31,
+              "value": 31
+            },
+            {
+              "display_name": "Enter the time of day (0-24) when the fault ends",
+              "display_name_short": "end_time",
+              "name": "end_time",
+              "value_type": "double",
+              "default_value": 23,
+              "value": 23
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Enter the bias level of the outdoor air temperature sensor. A positive number means that the sensor is reading a temperature higher than the true temperature. [K]",
+                "display_name_short": "out_t_bias",
+                "name": "out_t_bias",
+                "value_type": "double",
+                "default_value": -2,
+                "value": -2
+              },
+              "display_name": "Enter the bias level of the outdoor air temperature sensor. A positive number means that the sensor is reading a temperature higher than the true temperature. [K]",
+              "display_name_short": "out_t_bias",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": -2,
+              "maximum": -2,
+              "static_value": -2,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": -2,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": -2
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": -2
+                  },
+                  {
+                    "name": "modes",
+                    "value": -2
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": -2
+                  },
+                  {
+                    "name": "stddev",
+                    "value": -2
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 9
+        },
+        {
+          "name": "biased_economizer_sensor_return_rh",
+          "display_name": "Biased Economizer Sensor: Return RH",
+          "measure_type": "EnergyPlusMeasure",
+          "measure_definition_class_name": "BiasedEconomizerSensorReturnRH",
+          "measure_definition_directory": "./measures/BiasedEconomizerSensorReturnRH",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\BiasedEconomizerSensorReturnRH",
+          "measure_definition_display_name": "Biased Economizer Sensor: Return RH",
+          "measure_definition_name": "biased_economizer_sensor_return_rh",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "581a85db-9cee-480f-9e5f-bbf62b217268",
+          "measure_definition_version_uuid": "a0889032-87bb-465a-9341-01f7b8342a06",
+          "uuid": "581a85db-9cee-480f-9e5f-bbf62b217268",
+          "version_uuid": "a0889032-87bb-465a-9341-01f7b8342a06",
+          "description": "When sensors drift and are not regularly calibrated, it causes a bias. Sensor readings often drift from their calibration with age, causing equipment control algorithms to produce outputs that deviate from their intended function. This fault is categorized as a fault that occur in the economizer system (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the biased economizer sensor (return relative humidity) by modifying Controller:OutdoorAir object in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the biased RH level (%). A positive number means that the sensor is reading a relative humidity higher than the true relative humidity.",
+          "taxonomy": "HVAC.HVAC Controls",
+          "arguments": [
+            {
+              "display_name": "Choice of economizers.",
+              "display_name_short": "econ_choice",
+              "name": "econ_choice",
+              "value_type": "string",
+              "default_value": "Controller Outdoor Air 1",
+              "value": "Controller Outdoor Air 1"
+            },
+            {
+              "display_name": "Enter the time required for fault to reach full level [hr]",
+              "display_name_short": "time_constant",
+              "name": "time_constant",
+              "value_type": "double",
+              "default_value": 0,
+              "value": 0
+            },
+            {
+              "display_name": "Enter the month (1-12) when the fault starts to occur",
+              "display_name_short": "start_month",
+              "name": "start_month",
+              "value_type": "double",
+              "default_value": 1,
+              "value": 1
+            },
+            {
+              "display_name": "Enter the date (1-28/30/31) when the fault starts to occur",
+              "display_name_short": "start_date",
+              "name": "start_date",
+              "value_type": "double",
+              "default_value": 1,
+              "value": 1
+            },
+            {
+              "display_name": "Enter the time of day (0-24) when the fault starts to occur",
+              "display_name_short": "start_time",
+              "name": "start_time",
+              "value_type": "double",
+              "default_value": 0,
+              "value": 0
+            },
+            {
+              "display_name": "Enter the month (1-12) when the fault ends",
+              "display_name_short": "end_month",
+              "name": "end_month",
+              "value_type": "double",
+              "default_value": 12,
+              "value": 12
+            },
+            {
+              "display_name": "Enter the date (1-28/30/31) when the fault ends",
+              "display_name_short": "end_date",
+              "name": "end_date",
+              "value_type": "double",
+              "default_value": 31,
+              "value": 31
+            },
+            {
+              "display_name": "Enter the time of day (0-24) when the fault ends",
+              "display_name_short": "end_time",
+              "name": "end_time",
+              "value_type": "double",
+              "default_value": 23,
+              "value": 23
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Enter the bias level of the return air relative humidity sensor. A positive number means that the sensor is reading a relative humidity higher than the true relative humidity. [%]",
+                "display_name_short": "ret_rh_bias",
+                "name": "ret_rh_bias",
+                "value_type": "double",
+                "default_value": -10,
+                "value": -10
+              },
+              "display_name": "Enter the bias level of the return air relative humidity sensor. A positive number means that the sensor is reading a relative humidity higher than the true relative humidity. [%]",
+              "display_name_short": "ret_rh_bias",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": -10,
+              "maximum": -10,
+              "static_value": -10,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": -10,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": -10
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": -10
+                  },
+                  {
+                    "name": "modes",
+                    "value": -10
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": -10
+                  },
+                  {
+                    "name": "stddev",
+                    "value": -10
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 10
+        },
+        {
+          "name": "biased_economizer_sensor_return_t",
+          "display_name": "Biased Economizer Sensor: Return Temperature",
+          "measure_type": "EnergyPlusMeasure",
+          "measure_definition_class_name": "BiasedEconomizerSensorReturnT",
+          "measure_definition_directory": "./measures/BiasedEconomizerSensorReturnT",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\BiasedEconomizerSensorReturnT",
+          "measure_definition_display_name": "Biased Economizer Sensor: Return Temperature",
+          "measure_definition_name": "biased_economizer_sensor_return_t",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "f1ba09fb-2903-45b2-838c-604b63fc4662",
+          "measure_definition_version_uuid": "c377f604-8fa4-4adc-90e2-0d3f7656c9f3",
+          "uuid": "f1ba09fb-2903-45b2-838c-604b63fc4662",
+          "version_uuid": "c377f604-8fa4-4adc-90e2-0d3f7656c9f3",
+          "description": "When sensors drift and are not regularly calibrated, it causes a bias. Sensor readings often drift from their calibration with age, causing equipment control algorithms to produce outputs that deviate from their intended function. This fault is categorized as a fault that occur in the economizer system (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the biased economizer sensor (return temperature) by modifying Controller:OutdoorAir object in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the biased temperature level (K). A positive number means that the sensor is reading a temperature higher than the true temperature.",
+          "taxonomy": "HVAC.HVAC Controls",
+          "arguments": [
+            {
+              "display_name": "Choice of economizers.",
+              "display_name_short": "econ_choice",
+              "name": "econ_choice",
+              "value_type": "string",
+              "default_value": "Controller Outdoor Air 1",
+              "value": "Controller Outdoor Air 1"
+            },
+            {
+              "display_name": "Enter the time required for fault to reach full level [hr]",
+              "display_name_short": "time_constant",
+              "name": "time_constant",
+              "value_type": "double",
+              "default_value": 0,
+              "value": 0
+            },
+            {
+              "display_name": "Enter the month (1-12) when the fault starts to occur",
+              "display_name_short": "start_month",
+              "name": "start_month",
+              "value_type": "double",
+              "default_value": 1,
+              "value": 1
+            },
+            {
+              "display_name": "Enter the date (1-28/30/31) when the fault starts to occur",
+              "display_name_short": "start_date",
+              "name": "start_date",
+              "value_type": "double",
+              "default_value": 1,
+              "value": 1
+            },
+            {
+              "display_name": "Enter the time of day (0-24) when the fault starts to occur",
+              "display_name_short": "start_time",
+              "name": "start_time",
+              "value_type": "double",
+              "default_value": 0,
+              "value": 0
+            },
+            {
+              "display_name": "Enter the month (1-12) when the fault ends",
+              "display_name_short": "end_month",
+              "name": "end_month",
+              "value_type": "double",
+              "default_value": 12,
+              "value": 12
+            },
+            {
+              "display_name": "Enter the date (1-28/30/31) when the fault ends",
+              "display_name_short": "end_date",
+              "name": "end_date",
+              "value_type": "double",
+              "default_value": 31,
+              "value": 31
+            },
+            {
+              "display_name": "Enter the time of day (0-24) when the fault ends",
+              "display_name_short": "end_time",
+              "name": "end_time",
+              "value_type": "double",
+              "default_value": 23,
+              "value": 23
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Enter the bias level of the return air temperature sensor. A positive number means that the sensor is reading a temperature higher than the true temperature. [K]",
+                "display_name_short": "ret_t_bias",
+                "name": "ret_t_bias",
+                "value_type": "double",
+                "default_value": -2,
+                "value": -2
+              },
+              "display_name": "Enter the bias level of the return air temperature sensor. A positive number means that the sensor is reading a temperature higher than the true temperature. [K]",
+              "display_name_short": "ret_t_bias",
+              "variable_type": "variable",
+              "units": "",
+              "minimum": -2,
+              "maximum": -2,
+              "static_value": -2,
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": 0,
+                        "weight": 0.5
+                      },
+                      {
+                        "value": -2,
+                        "weight": 0.5
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": -2
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": -2
+                  },
+                  {
+                    "name": "modes",
+                    "value": -2
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": -2
+                  },
+                  {
+                    "name": "stddev",
+                    "value": -2
+                  }
+                ]
+              },
+              "workflow_index": 0
+            }
+          ],
+          "workflow_index": 11
+        },
+        {
+          "name": "openstudio_results",
+          "display_name": "OpenStudio Results",
+          "measure_type": "ReportingMeasure",
+          "measure_definition_class_name": "OpenStudioResults",
+          "measure_definition_directory": "./measures/5d24f032-e2e4-407f-a20d-9f76e15d4ac1",
+          "measure_definition_directory_local": "C:/Users/JKIM4/BCL/a25386cd-60e4-46bc-8b11-c755f379d916/5d24f032-e2e4-407f-a20d-9f76e15d4ac1",
+          "measure_definition_display_name": "OpenStudio Results",
+          "measure_definition_name": "openstudio_results",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "a25386cd-60e4-46bc-8b11-c755f379d916",
+          "measure_definition_version_uuid": "5d24f032-e2e4-407f-a20d-9f76e15d4ac1",
+          "uuid": "a25386cd-60e4-46bc-8b11-c755f379d916",
+          "version_uuid": "5d24f032-e2e4-407f-a20d-9f76e15d4ac1",
+          "description": "This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data.",
+          "taxonomy": "Reporting.QAQC",
+          "arguments": [
+            {
+              "display_name": "Which Unit System do you want to use?",
+              "display_name_short": "units",
+              "name": "units",
+              "value_type": "string",
+              "default_value": "IP",
+              "value": "IP"
+            },
+            {
+              "display_name": "Model Summary",
+              "display_name_short": "building_summary_section",
+              "name": "building_summary_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Annual Overview",
+              "display_name_short": "annual_overview_section",
+              "name": "annual_overview_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Monthly Overview",
+              "display_name_short": "monthly_overview_section",
+              "name": "monthly_overview_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Utility Bills/Rates",
+              "display_name_short": "utility_bills_rates_section",
+              "name": "utility_bills_rates_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Envelope Summary",
+              "display_name_short": "envelope_section_section",
+              "name": "envelope_section_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Space Type Breakdown",
+              "display_name_short": "space_type_breakdown_section",
+              "name": "space_type_breakdown_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Space Type Summary",
+              "display_name_short": "space_type_details_section",
+              "name": "space_type_details_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Interior Lighting Summary",
+              "display_name_short": "interior_lighting_section",
+              "name": "interior_lighting_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Plug Loads Summary",
+              "display_name_short": "plug_loads_section",
+              "name": "plug_loads_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Exterior Lighting",
+              "display_name_short": "exterior_light_section",
+              "name": "exterior_light_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Water Use Equipment",
+              "display_name_short": "water_use_section",
+              "name": "water_use_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "HVAC Load Profiles",
+              "display_name_short": "hvac_load_profile",
+              "name": "hvac_load_profile",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Zone Conditions",
+              "display_name_short": "zone_condition_section",
+              "name": "zone_condition_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Zone Overview",
+              "display_name_short": "zone_summary_section",
+              "name": "zone_summary_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Zone Equipment Detail",
+              "display_name_short": "zone_equipment_detail_section",
+              "name": "zone_equipment_detail_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Air Loops Detail",
+              "display_name_short": "air_loops_detail_section",
+              "name": "air_loops_detail_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Plant Loops Detail",
+              "display_name_short": "plant_loops_detail_section",
+              "name": "plant_loops_detail_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Outdoor Air",
+              "display_name_short": "outdoor_air_section",
+              "name": "outdoor_air_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Cash Flow",
+              "display_name_short": "cost_summary_section",
+              "name": "cost_summary_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Site and Source Summary",
+              "display_name_short": "source_energy_section",
+              "name": "source_energy_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Schedule Overview",
+              "display_name_short": "schedules_overview_section",
+              "name": "schedules_overview_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Measure Warnings",
+              "display_name_short": "measure_warning_section",
+              "name": "measure_warning_section",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": false
+            },
+            {
+              "display_name": "Report monthly fuel and enduse breakdown to registerValue",
+              "display_name_short": "reg_monthly_details",
+              "name": "reg_monthly_details",
+              "value_type": "boolean",
+              "default_value": false,
+              "value": false
+            }
+          ],
+          "variables": [],
+          "workflow_index": 12
+        },
+        {
+          "name": "server_directory_cleanup",
+          "display_name": "Server Directory Cleanup",
+          "measure_type": "ReportingMeasure",
+          "measure_definition_class_name": "ServerDirectoryCleanup",
+          "measure_definition_directory": "./measures/ServerDirectoryCleanup",
+          "measure_definition_directory_local": "C:\\Users\\JKIM4\\Documents\\GitHub\\FaultModelTesting\\measures\\ServerDirectoryCleanup",
+          "measure_definition_display_name": "Server Directory Cleanup",
+          "measure_definition_name": "server_directory_cleanup",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "ec7d04ad-0b7b-495b-825a-e1b6d28d1d3f",
+          "measure_definition_version_uuid": "95fce446-c6c5-4594-9332-6e3332b81ab1",
+          "uuid": "ec7d04ad-0b7b-495b-825a-e1b6d28d1d3f",
+          "version_uuid": "95fce446-c6c5-4594-9332-6e3332b81ab1",
+          "description": "Removes a significant portion of the saved results from each run, helping to alleviate memory problems.",
+          "taxonomy": "Reporting.Troubleshooting",
+          "arguments": [
+            {
+              "display_name": "Remove sql files from run directory",
+              "display_name_short": "sql",
+              "name": "sql",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove eso files from run directory",
+              "display_name_short": "eso",
+              "name": "eso",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove audit files from run directory",
+              "display_name_short": "audit",
+              "name": "audit",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove osm files from run directory",
+              "display_name_short": "osm",
+              "name": "osm",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove idf files from run directory",
+              "display_name_short": "idf",
+              "name": "idf",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove bnd files from run directory",
+              "display_name_short": "bnd",
+              "name": "bnd",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove eio files from run directory",
+              "display_name_short": "eio",
+              "name": "eio",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove shd files from run directory",
+              "display_name_short": "shd",
+              "name": "shd",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove mdd files from run directory",
+              "display_name_short": "mdd",
+              "name": "mdd",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove rdd files from run directory",
+              "display_name_short": "rdd",
+              "name": "rdd",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove csv files from run directory",
+              "display_name_short": "csv",
+              "name": "csv",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            },
+            {
+              "display_name": "Remove Sizing Run Directories files from run directory",
+              "display_name_short": "Sizing Run Directories",
+              "name": "Sizing Run Directories",
+              "value_type": "boolean",
+              "default_value": true,
+              "value": true
+            }
+          ],
+          "variables": [],
+          "workflow_index": 13
+        }
+      ],
+      "algorithm": {
+        "experiment_type": "diagonal",
+        "run_baseline": 1,
+        "seed": null,
+        "failed_f_value": 1000000000000000000,
+        "debug_messages": 0,
+        "objective_functions": []
+      },
+      "analysis_type": "diag"
+    },
+    "seed": {
+      "file_type": "OSM",
+      "path": "./seeds/testbldg_v6.osm"
+    },
+    "weather_file": {
+      "file_type": "EPW",
+      "path": "./weather/USA_CO_Denver.Intl.AP.725650_TMY3.epw"
+    },
+    "file_format_version": 1,
+    "cli_debug": "",
+    "cli_verbose": "",
+    "run_workflow_timeout": 28800,
+    "upload_results_timeout": 28800,
+    "initialize_worker_timeout": 28800,
+    "server_scripts": {}
+  }
+}

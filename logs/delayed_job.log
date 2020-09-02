@@ -1,0 +1,334 @@
+# Logfile created on 2020-07-03 13:17:58 -0600 by logger.rb/47272
+[13:19:09.267737 INFO] 2020-07-03T13:19:09-0600: [Worker(delayed_job.worker_1 host:JKIM4-33723S pid:5412)] Starting job worker
+[13:19:09.270738 INFO] 2020-07-03T13:19:09-0600: [Worker(delayed_job.worker_1 host:JKIM4-33723S pid:5412)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:19:09.654738 INFO] 2020-07-03T13:19:09-0600: [Worker(delayed_job.server host:JKIM4-33723S pid:1936)] Starting job worker
+[13:19:09.657739 INFO] 2020-07-03T13:19:09-0600: [Worker(delayed_job.server host:JKIM4-33723S pid:1936)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:19:30.167860 INFO] 2020-07-03T13:19:30-0600: [Worker(delayed_job.worker_2 host:JKIM4-33723S pid:17448)] Starting job worker
+[13:19:30.170859 INFO] 2020-07-03T13:19:30-0600: [Worker(delayed_job.worker_2 host:JKIM4-33723S pid:17448)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:19:48.630883 INFO] 2020-07-03T13:19:48-0600: [Worker(delayed_job.worker_3 host:JKIM4-33723S pid:16488)] Starting job worker
+[13:19:48.634881 INFO] 2020-07-03T13:19:48-0600: [Worker(delayed_job.worker_3 host:JKIM4-33723S pid:16488)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:20:07.513499 INFO] 2020-07-03T13:20:07-0600: [Worker(delayed_job.worker_4 host:JKIM4-33723S pid:19888)] Starting job worker
+[13:20:07.517497 INFO] 2020-07-03T13:20:07-0600: [Worker(delayed_job.worker_4 host:JKIM4-33723S pid:19888)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:20:26.709639 INFO] 2020-07-03T13:20:26-0600: [Worker(delayed_job.worker_5 host:JKIM4-33723S pid:19308)] Starting job worker
+[13:20:26.712639 INFO] 2020-07-03T13:20:26-0600: [Worker(delayed_job.worker_5 host:JKIM4-33723S pid:19308)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:20:47.688180 INFO] 2020-07-03T13:20:47-0600: [Worker(delayed_job.worker_6 host:JKIM4-33723S pid:6100)] Starting job worker
+[13:20:47.696181 INFO] 2020-07-03T13:20:47-0600: [Worker(delayed_job.worker_6 host:JKIM4-33723S pid:6100)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:21:09.256447 INFO] 2020-07-03T13:21:09-0600: [Worker(delayed_job.worker_7 host:JKIM4-33723S pid:6016)] Starting job worker
+[13:21:09.259445 INFO] 2020-07-03T13:21:09-0600: [Worker(delayed_job.worker_7 host:JKIM4-33723S pid:6016)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:21:29.810116 INFO] 2020-07-03T13:21:29-0600: [Worker(delayed_job.worker_8 host:JKIM4-33723S pid:4636)] Starting job worker
+[13:21:29.813112 INFO] 2020-07-03T13:21:29-0600: [Worker(delayed_job.worker_8 host:JKIM4-33723S pid:4636)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:21:50.543118 INFO] 2020-07-03T13:21:50-0600: [Worker(delayed_job.worker_9 host:JKIM4-33723S pid:21836)] Starting job worker
+[13:21:50.546121 INFO] 2020-07-03T13:21:50-0600: [Worker(delayed_job.worker_9 host:JKIM4-33723S pid:21836)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:22:10.313298 INFO] 2020-07-03T13:22:10-0600: [Worker(delayed_job.worker_10 host:JKIM4-33723S pid:16708)] Starting job worker
+[13:22:10.317300 INFO] 2020-07-03T13:22:10-0600: [Worker(delayed_job.worker_10 host:JKIM4-33723S pid:16708)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:22:28.030065 INFO] 2020-07-03T13:22:28-0600: [Worker(delayed_job.worker_11 host:JKIM4-33723S pid:920)] Starting job worker
+[13:22:28.033062 INFO] 2020-07-03T13:22:28-0600: [Worker(delayed_job.worker_11 host:JKIM4-33723S pid:920)] Error while reserving job: IOError: closed stream (for 127.0.0.1:27017 (no TLS)) (on 127.0.0.1:27017)
+[13:23:40.650165 INFO] 2020-07-03T13:23:40-0600: [Worker(delayed_job.server host:JKIM4-33723S pid:1936)] Job AnalysisLibrary::BatchDatapoints (id=5eff85b8472a145460a0ef18) (queue=analyses) RUNNING
+[13:23:40.920165 INFO] Initializing analysis for AFDD-FaultModelParametric with UUID of f451ead3-737c-4d95-90b0-9630641c087f
+[13:23:40.920165 INFO] Setting up R for AnalysisLibrary::BatchDatapoints
+[13:23:40.933167 INFO] Found 26 non-default variables in the batch datapoint set.
+[13:23:40.933167 INFO] Starting batch datapoint extraction.
+[13:23:41.061166 INFO] Creating datapoint samples
+[13:23:41.561172 INFO] Adding the datapoints to the database
+[13:23:41.608166 INFO] Generated datapoint DuctFouling for analysis AFDD-FaultModelParametric
+[13:23:41.639168 INFO] Generated datapoint EconomizerDamperStuck for analysis AFDD-FaultModelParametric
+[13:23:41.669167 INFO] Generated datapoint ExcessiveInfiltration for analysis AFDD-FaultModelParametric
+[13:23:41.700166 INFO] Generated datapoint HVACSetback_DelayedOnset for analysis AFDD-FaultModelParametric
+[13:23:41.731170 INFO] Generated datapoint HVACSetback_EarlyTermination for analysis AFDD-FaultModelParametric
+[13:23:41.766167 INFO] Generated datapoint ImproperTimeDelaySettingInOccSensor for analysis AFDD-FaultModelParametric
+[13:23:41.799683 INFO] Generated datapoint HVACSetback_NoSetback for analysis AFDD-FaultModelParametric
+[13:23:41.835719 INFO] Generated datapoint LightingSetback_DelayedOnset for analysis AFDD-FaultModelParametric
+[13:23:41.867683 INFO] Generated datapoint LightingSetback_EarlyTermination for analysis AFDD-FaultModelParametric
+[13:23:41.899685 INFO] Generated datapoint LightingSetback_NoSetback for analysis AFDD-FaultModelParametric
+[13:23:41.935682 INFO] Generated datapoint OversizedEquipment for analysis AFDD-FaultModelParametric
+[13:23:41.967687 INFO] Generated datapoint ThermostatBias for analysis AFDD-FaultModelParametric
+[13:23:42.001683 INFO] Generated datapoint AHUFanDegradation for analysis AFDD-FaultModelParametric
+[13:23:42.037687 INFO] Generated datapoint BiasedEconomizerSensor_MAT for analysis AFDD-FaultModelParametric
+[13:23:42.071687 INFO] Generated datapoint BiasedEconomizerSensor_OARH for analysis AFDD-FaultModelParametric
+[13:23:42.105685 INFO] Generated datapoint BiasedEconomizerSensor_OAT for analysis AFDD-FaultModelParametric
+[13:23:42.140684 INFO] Generated datapoint BiasedEconomizerSensor_RARH for analysis AFDD-FaultModelParametric
+[13:23:42.173685 INFO] Generated datapoint BiasedEconomizerSensor_RAT for analysis AFDD-FaultModelParametric
+[13:23:42.206683 INFO] Generated datapoint CondenserFanDegradation for analysis AFDD-FaultModelParametric
+[13:23:42.239685 INFO] Generated datapoint CondenserFouling for analysis AFDD-FaultModelParametric
+[13:23:42.269684 INFO] Generated datapoint EvaporatorFouling for analysis AFDD-FaultModelParametric
+[13:23:42.300683 INFO] Generated datapoint LiquidLineRestriction for analysis AFDD-FaultModelParametric
+[13:23:42.334684 INFO] Generated datapoint NonstandardCharging for analysis AFDD-FaultModelParametric
+[13:23:42.366686 INFO] Generated datapoint PresenceOfNoncondensable for analysis AFDD-FaultModelParametric
+[13:23:42.398684 INFO] Generated datapoint ReturnAirLeakage for analysis AFDD-FaultModelParametric
+[13:23:42.429689 INFO] Generated datapoint SupplyAirLeakage for analysis AFDD-FaultModelParametric
+[13:23:42.462684 INFO] Generated datapoint Baseline_NoFault for analysis AFDD-FaultModelParametric
+[13:23:42.513686 INFO] Finished running analysis 'AnalysisLibrary::BatchDatapoints'
+[13:23:42.526685 INFO] 2020-07-03T13:23:42-0600: [Worker(delayed_job.server host:JKIM4-33723S pid:1936)] Job AnalysisLibrary::BatchDatapoints (id=5eff85b8472a145460a0ef18) (queue=analyses) COMPLETED after 1.8754
+[13:23:42.541689 INFO] 2020-07-03T13:23:42-0600: [Worker(delayed_job.server host:JKIM4-33723S pid:1936)] Job AnalysisLibrary::BatchRun (id=5eff85b8472a145460a0ef1a) (queue=analyses) RUNNING
+[13:23:42.753684 INFO] No datapoints were passed into the options, therefore checking which datapoints to run
+[13:23:42.770683 INFO] Adding 75bc5e27-e92d-4c70-bcf2-39fce20f0234 to simulations queue
+[13:23:42.883684 INFO] Adding bc007a17-3326-4bc4-9991-85d904a62b42 to simulations queue
+[13:23:43.002721 INFO] Adding 2d185af7-15ca-467f-8716-7de6efa0f4ac to simulations queue
+[13:23:43.128687 INFO] Adding 9df8c73d-0aa5-4269-92f3-f46be9fb3fef to simulations queue
+[13:23:43.228687 INFO] Adding aedfe339-a105-46c1-9b6e-4b238a9d3c24 to simulations queue
+[13:23:43.333719 INFO] Adding 110c0380-c8ad-4bf4-ac8b-5b89459d22f0 to simulations queue
+[13:23:43.416722 INFO] 2020-07-03T13:23:43-0600: [Worker(delayed_job.worker_4 host:JKIM4-33723S pid:19888)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85be472a1407902fe4b0) (queue=simulations) RUNNING
+[13:23:43.430686 INFO] Adding 0c28be06-3206-4ad1-8cdd-85d2994e0fa6 to simulations queue
+[13:23:43.492722 INFO] 2020-07-03T13:23:43-0600: [Worker(delayed_job.worker_6 host:JKIM4-33723S pid:6100)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85be472a1407902fe4b1) (queue=simulations) RUNNING
+[13:23:43.521724 INFO] Adding 38885210-b1aa-4c3a-8e0c-e7c3c4423907 to simulations queue
+[13:23:43.632685 INFO] Adding ce44bfd0-1446-4ae0-b42d-91f41f839694 to simulations queue
+[13:23:43.726689 INFO] 2020-07-03T13:23:43-0600: [Worker(delayed_job.worker_11 host:JKIM4-33723S pid:920)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b2) (queue=simulations) RUNNING
+[13:23:43.761685 INFO] Adding 9e179fae-506f-456f-a11a-94c23f4c5fe8 to simulations queue
+[13:23:43.892682 INFO] Adding d9e87482-2561-4a93-8792-ffabb6f18c9d to simulations queue
+[13:23:44.065681 INFO] Adding 113f638d-43d7-4427-916b-e0a5755d0c8f to simulations queue
+[13:23:44.210680 INFO] Adding 5e0dd00e-abd9-48ad-9c67-f8291528003d to simulations queue
+[13:23:44.341684 INFO] Adding 33a5b836-c824-48ca-9fa4-0d5c27f89f1f to simulations queue
+[13:23:44.452685 INFO] Adding 85dd5e8b-a706-427f-9e10-2283958a4661 to simulations queue
+[13:23:44.544682 INFO] Adding 0c34554f-b316-4047-a609-09d15d68ec82 to simulations queue
+[13:23:44.633681 INFO] 2020-07-03T13:23:44-0600: [Worker(delayed_job.worker_3 host:JKIM4-33723S pid:16488)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b3) (queue=simulations) RUNNING
+[13:23:44.637716 INFO] Adding 0ce95c60-1449-4839-934f-35888f6fcbe9 to simulations queue
+[13:23:44.744682 INFO] Adding 9121e485-eac8-4986-9c92-1cac2d9dcb28 to simulations queue
+[13:23:44.853686 INFO] Adding 5ae92b00-0695-44de-a21f-7198c12872af to simulations queue
+[13:23:44.965686 INFO] Adding f7f40499-3a27-4a49-bc50-dfbfc6d1f642 to simulations queue
+[13:23:45.088682 INFO] Adding 98b6aafd-388b-4122-946f-73bf3f4e223d to simulations queue
+[13:23:45.099682 INFO] 2020-07-03T13:23:45-0600: [Worker(delayed_job.worker_7 host:JKIM4-33723S pid:6016)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b4) (queue=simulations) RUNNING
+[13:23:45.188683 INFO] Adding 692ccbb5-ce6f-43f1-aea8-056676b646be to simulations queue
+[13:23:45.296684 INFO] Adding 8e78b96f-34b0-4861-87f4-75270a97cfa9 to simulations queue
+[13:23:45.363691 INFO] 2020-07-03T13:23:45-0600: [Worker(delayed_job.worker_1 host:JKIM4-33723S pid:5412)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b5) (queue=simulations) RUNNING
+[13:23:45.413683 INFO] Adding fef87de3-2c8e-4f58-b6fb-abe27ec8457c to simulations queue
+[13:23:45.524686 INFO] Adding 13ed2f0b-1c77-4c8f-ba4d-028bc1fdad6b to simulations queue
+[13:23:45.633683 INFO] Adding 70c877e1-76da-4d5d-89f7-56001eff3175 to simulations queue
+[13:23:45.670718 INFO] 2020-07-03T13:23:45-0600: [Worker(delayed_job.worker_8 host:JKIM4-33723S pid:4636)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b6) (queue=simulations) RUNNING
+[13:23:45.746683 INFO] Adding aca25f25-a0f3-46f1-a4ba-f7bed297c38e to simulations queue
+[13:23:45.861092 INFO] Background job ids are: ["75bc5e27-e92d-4c70-bcf2-39fce20f0234", "bc007a17-3326-4bc4-9991-85d904a62b42", "2d185af7-15ca-467f-8716-7de6efa0f4ac", "9df8c73d-0aa5-4269-92f3-f46be9fb3fef", "aedfe339-a105-46c1-9b6e-4b238a9d3c24", "110c0380-c8ad-4bf4-ac8b-5b89459d22f0", "0c28be06-3206-4ad1-8cdd-85d2994e0fa6", "38885210-b1aa-4c3a-8e0c-e7c3c4423907", "ce44bfd0-1446-4ae0-b42d-91f41f839694", "9e179fae-506f-456f-a11a-94c23f4c5fe8", "d9e87482-2561-4a93-8792-ffabb6f18c9d", "113f638d-43d7-4427-916b-e0a5755d0c8f", "5e0dd00e-abd9-48ad-9c67-f8291528003d", "33a5b836-c824-48ca-9fa4-0d5c27f89f1f", "85dd5e8b-a706-427f-9e10-2283958a4661", "0c34554f-b316-4047-a609-09d15d68ec82", "0ce95c60-1449-4839-934f-35888f6fcbe9", "9121e485-eac8-4986-9c92-1cac2d9dcb28", "5ae92b00-0695-44de-a21f-7198c12872af", "f7f40499-3a27-4a49-bc50-dfbfc6d1f642", "98b6aafd-388b-4122-946f-73bf3f4e223d", "692ccbb5-ce6f-43f1-aea8-056676b646be", "8e78b96f-34b0-4861-87f4-75270a97cfa9", "fef87de3-2c8e-4f58-b6fb-abe27ec8457c", "13ed2f0b-1c77-4c8f-ba4d-028bc1fdad6b", "70c877e1-76da-4d5d-89f7-56001eff3175", "aca25f25-a0f3-46f1-a4ba-f7bed297c38e"]
+[13:23:45.874108 INFO] waiting
+[13:23:46.074106 INFO] 2020-07-03T13:23:46-0600: [Worker(delayed_job.worker_10 host:JKIM4-33723S pid:16708)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b7) (queue=simulations) RUNNING
+[13:23:46.187095 INFO] 2020-07-03T13:23:46-0600: [Worker(delayed_job.worker_2 host:JKIM4-33723S pid:17448)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b8) (queue=simulations) RUNNING
+[13:23:46.272090 INFO] 2020-07-03T13:23:46-0600: [Worker(delayed_job.worker_9 host:JKIM4-33723S pid:21836)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b9) (queue=simulations) RUNNING
+[13:23:47.571092 INFO] 2020-07-03T13:23:47-0600: [Worker(delayed_job.worker_5 host:JKIM4-33723S pid:19308)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4ba) (queue=simulations) RUNNING
+[13:23:50.890376 INFO] waiting
+[13:23:55.905926 INFO] waiting
+[13:24:01.027301 INFO] waiting
+[13:24:06.074825 INFO] waiting
+[13:24:11.118240 INFO] waiting
+[13:24:16.223968 INFO] waiting
+[13:24:21.253564 INFO] waiting
+[13:24:26.333373 INFO] waiting
+[13:24:31.377875 INFO] waiting
+[13:24:36.506981 INFO] waiting
+[13:24:41.557657 INFO] waiting
+[13:24:46.603467 INFO] waiting
+[13:24:51.681728 INFO] waiting
+[13:24:56.723152 INFO] waiting
+[13:25:01.916646 INFO] waiting
+[13:25:07.269926 INFO] waiting
+[13:25:12.340367 INFO] waiting
+[13:25:17.544444 INFO] waiting
+[13:25:22.816598 INFO] waiting
+[13:25:28.342659 INFO] waiting
+[13:25:33.364477 INFO] waiting
+[13:25:38.578470 INFO] waiting
+[13:25:43.945226 INFO] waiting
+[13:25:51.809475 INFO] waiting
+[13:25:56.908719 INFO] waiting
+[13:26:02.339163 INFO] waiting
+[13:26:07.722742 INFO] waiting
+[13:26:12.851902 INFO] waiting
+[13:26:18.111628 INFO] waiting
+[13:26:23.291769 INFO] waiting
+[13:26:28.565087 INFO] waiting
+[13:26:33.841851 INFO] waiting
+[13:26:39.223751 INFO] waiting
+[13:26:44.459174 INFO] waiting
+[13:26:49.665476 INFO] waiting
+[13:26:54.828440 INFO] waiting
+[13:27:00.184959 INFO] waiting
+[13:27:05.519766 INFO] waiting
+[13:27:14.399321 INFO] waiting
+[13:27:19.586140 INFO] waiting
+[13:27:25.184791 INFO] waiting
+[13:27:31.234152 INFO] waiting
+[13:27:36.566029 INFO] waiting
+[13:27:41.679179 INFO] waiting
+[13:27:47.009666 INFO] waiting
+[13:27:52.208782 INFO] waiting
+[13:27:57.360261 INFO] waiting
+[13:28:02.512956 INFO] waiting
+[13:28:07.557149 INFO] waiting
+[13:28:12.611589 INFO] waiting
+[13:28:17.636971 INFO] waiting
+[13:28:22.683385 INFO] waiting
+[13:28:27.752462 INFO] waiting
+[13:28:33.132804 INFO] waiting
+[13:28:38.176526 INFO] waiting
+[13:28:43.204931 INFO] waiting
+[13:28:48.441446 INFO] waiting
+[13:28:53.540200 INFO] waiting
+[13:28:59.002861 INFO] waiting
+[13:29:04.365146 INFO] waiting
+[13:29:09.389551 INFO] waiting
+[13:29:14.623314 INFO] waiting
+[13:29:19.882656 INFO] waiting
+[13:29:22.572340 INFO] 2020-07-03T13:29:22-0600: [Worker(delayed_job.worker_4 host:JKIM4-33723S pid:19888)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85be472a1407902fe4b0) (queue=simulations) COMPLETED after 339.1540
+[13:29:22.609338 INFO] 2020-07-03T13:29:22-0600: [Worker(delayed_job.worker_4 host:JKIM4-33723S pid:19888)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4bb) (queue=simulations) RUNNING
+[13:29:23.773482 INFO] 2020-07-03T13:29:23-0600: [Worker(delayed_job.worker_5 host:JKIM4-33723S pid:19308)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4ba) (queue=simulations) COMPLETED after 336.2005
+[13:29:23.829474 INFO] 2020-07-03T13:29:23-0600: [Worker(delayed_job.worker_5 host:JKIM4-33723S pid:19308)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4bc) (queue=simulations) RUNNING
+[13:29:25.423519 INFO] waiting
+[13:29:27.496586 INFO] 2020-07-03T13:29:27-0600: [Worker(delayed_job.worker_1 host:JKIM4-33723S pid:5412)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b5) (queue=simulations) COMPLETED after 342.1315
+[13:29:27.543589 INFO] 2020-07-03T13:29:27-0600: [Worker(delayed_job.worker_1 host:JKIM4-33723S pid:5412)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4bd) (queue=simulations) RUNNING
+[13:29:27.792590 INFO] 2020-07-03T13:29:27-0600: [Worker(delayed_job.worker_9 host:JKIM4-33723S pid:21836)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b9) (queue=simulations) COMPLETED after 341.5197
+[13:29:27.838588 INFO] 2020-07-03T13:29:27-0600: [Worker(delayed_job.worker_9 host:JKIM4-33723S pid:21836)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4be) (queue=simulations) RUNNING
+[13:29:28.869441 INFO] 2020-07-03T13:29:28-0600: [Worker(delayed_job.worker_2 host:JKIM4-33723S pid:17448)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b8) (queue=simulations) COMPLETED after 342.6806
+[13:29:28.919442 INFO] 2020-07-03T13:29:28-0600: [Worker(delayed_job.worker_2 host:JKIM4-33723S pid:17448)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4bf) (queue=simulations) RUNNING
+[13:29:30.193035 INFO] 2020-07-03T13:29:30-0600: [Worker(delayed_job.worker_8 host:JKIM4-33723S pid:4636)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b6) (queue=simulations) COMPLETED after 344.5172
+[13:29:30.245034 INFO] 2020-07-03T13:29:30-0600: [Worker(delayed_job.worker_8 host:JKIM4-33723S pid:4636)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4c0) (queue=simulations) RUNNING
+[13:29:30.803034 INFO] 2020-07-03T13:29:30-0600: [Worker(delayed_job.worker_10 host:JKIM4-33723S pid:16708)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b7) (queue=simulations) COMPLETED after 344.7143
+[13:29:30.905032 INFO] 2020-07-03T13:29:30-0600: [Worker(delayed_job.worker_10 host:JKIM4-33723S pid:16708)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4c1) (queue=simulations) RUNNING
+[13:29:30.941033 INFO] waiting
+[13:29:32.287441 INFO] 2020-07-03T13:29:32-0600: [Worker(delayed_job.worker_6 host:JKIM4-33723S pid:6100)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85be472a1407902fe4b1) (queue=simulations) COMPLETED after 348.7885
+[13:29:32.355440 INFO] 2020-07-03T13:29:32-0600: [Worker(delayed_job.worker_6 host:JKIM4-33723S pid:6100)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4c2) (queue=simulations) RUNNING
+[13:29:34.403827 INFO] 2020-07-03T13:29:34-0600: [Worker(delayed_job.worker_3 host:JKIM4-33723S pid:16488)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b3) (queue=simulations) COMPLETED after 349.7379
+[13:29:34.674832 INFO] 2020-07-03T13:29:34-0600: [Worker(delayed_job.worker_7 host:JKIM4-33723S pid:6016)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b4) (queue=simulations) COMPLETED after 349.5421
+[13:29:34.675827 INFO] 2020-07-03T13:29:34-0600: [Worker(delayed_job.worker_3 host:JKIM4-33723S pid:16488)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c3) (queue=simulations) RUNNING
+[13:29:34.876829 INFO] 2020-07-03T13:29:34-0600: [Worker(delayed_job.worker_7 host:JKIM4-33723S pid:6016)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c4) (queue=simulations) RUNNING
+[13:29:36.209914 INFO] waiting
+[13:29:37.061170 INFO] 2020-07-03T13:29:37-0600: [Worker(delayed_job.worker_11 host:JKIM4-33723S pid:920)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85bf472a1407902fe4b2) (queue=simulations) COMPLETED after 353.3249
+[13:29:37.144167 INFO] 2020-07-03T13:29:37-0600: [Worker(delayed_job.worker_11 host:JKIM4-33723S pid:920)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c5) (queue=simulations) RUNNING
+[13:29:41.789362 INFO] waiting
+[13:29:46.930814 INFO] waiting
+[13:29:52.033417 INFO] waiting
+[13:29:57.129840 INFO] waiting
+[13:30:02.483338 INFO] waiting
+[13:30:07.718956 INFO] waiting
+[13:30:12.953157 INFO] waiting
+[13:30:18.220071 INFO] waiting
+[13:30:23.543734 INFO] waiting
+[13:30:28.649874 INFO] waiting
+[13:30:33.703732 INFO] waiting
+[13:30:38.778040 INFO] waiting
+[13:30:43.831162 INFO] waiting
+[13:30:49.042946 INFO] waiting
+[13:30:54.156517 INFO] waiting
+[13:30:59.307122 INFO] waiting
+[13:31:04.421348 INFO] waiting
+[13:31:09.467705 INFO] waiting
+[13:31:14.626593 INFO] waiting
+[13:31:19.656741 INFO] waiting
+[13:31:25.621664 INFO] waiting
+[13:31:31.785553 INFO] waiting
+[13:31:38.565173 INFO] waiting
+[13:31:43.690572 INFO] waiting
+[13:31:49.451567 INFO] waiting
+[13:31:55.458896 INFO] waiting
+[13:32:00.608406 INFO] waiting
+[13:32:06.355102 INFO] waiting
+[13:32:13.258356 INFO] waiting
+[13:32:18.770606 INFO] waiting
+[13:32:24.182241 INFO] waiting
+[13:32:29.952467 INFO] waiting
+[13:32:38.884183 INFO] waiting
+[13:32:44.330633 INFO] waiting
+[13:32:49.935446 INFO] waiting
+[13:32:56.169887 INFO] waiting
+[13:33:02.299098 INFO] waiting
+[13:33:08.347942 INFO] waiting
+[13:33:13.782537 INFO] waiting
+[13:33:19.830792 INFO] waiting
+[13:33:25.450667 INFO] waiting
+[13:33:30.987448 INFO] waiting
+[13:33:36.949336 INFO] waiting
+[13:33:42.753857 INFO] waiting
+[13:33:47.948776 INFO] waiting
+[13:33:54.724529 INFO] waiting
+[13:33:59.981064 INFO] waiting
+[13:34:05.381250 INFO] waiting
+[13:34:10.474613 INFO] waiting
+[13:34:15.823192 INFO] waiting
+[13:34:21.039606 INFO] waiting
+[13:34:26.291829 INFO] waiting
+[13:34:31.518694 INFO] waiting
+[13:34:38.214705 INFO] waiting
+[13:34:46.847715 INFO] waiting
+[13:34:55.197725 INFO] waiting
+[13:35:01.222728 INFO] waiting
+[13:35:07.555735 INFO] waiting
+[13:35:15.640744 INFO] waiting
+[13:35:20.920752 INFO] waiting
+[13:35:25.781757 INFO] 2020-07-03T13:35:25-0600: [Worker(delayed_job.worker_4 host:JKIM4-33723S pid:19888)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4bb) (queue=simulations) COMPLETED after 363.1561
+[13:35:25.863760 INFO] 2020-07-03T13:35:25-0600: [Worker(delayed_job.worker_4 host:JKIM4-33723S pid:19888)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c6) (queue=simulations) RUNNING
+[13:35:26.107761 INFO] waiting
+[13:35:27.029759 INFO] 2020-07-03T13:35:27-0600: [Worker(delayed_job.worker_5 host:JKIM4-33723S pid:19308)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4bc) (queue=simulations) COMPLETED after 363.1845
+[13:35:27.183761 INFO] 2020-07-03T13:35:27-0600: [Worker(delayed_job.worker_5 host:JKIM4-33723S pid:19308)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c7) (queue=simulations) RUNNING
+[13:35:29.999762 INFO] 2020-07-03T13:35:29-0600: [Worker(delayed_job.worker_1 host:JKIM4-33723S pid:5412)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4bd) (queue=simulations) COMPLETED after 362.4108
+[13:35:30.211760 INFO] 2020-07-03T13:35:30-0600: [Worker(delayed_job.worker_1 host:JKIM4-33723S pid:5412)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c8) (queue=simulations) RUNNING
+[13:35:31.430762 INFO] waiting
+[13:35:36.567770 INFO] waiting
+[13:35:41.749776 INFO] waiting
+[13:35:46.843782 INFO] waiting
+[13:35:51.872786 INFO] 2020-07-03T13:35:51-0600: [Worker(delayed_job.worker_6 host:JKIM4-33723S pid:6100)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4c2) (queue=simulations) COMPLETED after 379.4471
+[13:35:51.892788 INFO] waiting
+[13:35:51.976788 INFO] 2020-07-03T13:35:51-0600: [Worker(delayed_job.worker_6 host:JKIM4-33723S pid:6100)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c9) (queue=simulations) RUNNING
+[13:35:57.082793 INFO] waiting
+[13:36:02.329420 INFO] waiting
+[13:36:07.593427 INFO] waiting
+[13:36:12.846367 INFO] waiting
+[13:36:17.901376 INFO] waiting
+[13:36:18.130377 INFO] 2020-07-03T13:36:18-0600: [Worker(delayed_job.worker_3 host:JKIM4-33723S pid:16488)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c3) (queue=simulations) COMPLETED after 403.3582
+[13:36:18.173375 INFO] 2020-07-03T13:36:18-0600: [Worker(delayed_job.worker_3 host:JKIM4-33723S pid:16488)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4ca) (queue=simulations) RUNNING
+[13:36:21.489382 INFO] 2020-07-03T13:36:21-0600: [Worker(delayed_job.worker_9 host:JKIM4-33723S pid:21836)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4be) (queue=simulations) COMPLETED after 413.6236
+[13:36:21.574381 INFO] 2020-07-03T13:36:21-0600: [Worker(delayed_job.worker_2 host:JKIM4-33723S pid:17448)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4bf) (queue=simulations) COMPLETED after 412.6080
+[13:36:21.615378 INFO] 2020-07-03T13:36:21-0600: [Worker(delayed_job.worker_9 host:JKIM4-33723S pid:21836)] 2 jobs processed at 0.0026 j/s, 0 failed
+[13:36:21.659504 INFO] 2020-07-03T13:36:21-0600: [Worker(delayed_job.worker_2 host:JKIM4-33723S pid:17448)] 2 jobs processed at 0.0026 j/s, 0 failed
+[13:36:23.202385 INFO] waiting
+[13:36:23.390384 INFO] 2020-07-03T13:36:23-0600: [Worker(delayed_job.worker_7 host:JKIM4-33723S pid:6016)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c4) (queue=simulations) COMPLETED after 408.5066
+[13:36:23.399381 INFO] 2020-07-03T13:36:23-0600: [Worker(delayed_job.worker_7 host:JKIM4-33723S pid:6016)] 2 jobs processed at 0.0026 j/s, 0 failed
+[13:36:28.210390 INFO] waiting
+[13:36:29.814391 INFO] 2020-07-03T13:36:29-0600: [Worker(delayed_job.worker_11 host:JKIM4-33723S pid:920)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c5) (queue=simulations) COMPLETED after 412.6599
+[13:36:29.826389 INFO] 2020-07-03T13:36:29-0600: [Worker(delayed_job.worker_11 host:JKIM4-33723S pid:920)] 2 jobs processed at 0.0026 j/s, 0 failed
+[13:36:33.122394 INFO] 2020-07-03T13:36:33-0600: [Worker(delayed_job.worker_10 host:JKIM4-33723S pid:16708)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4c1) (queue=simulations) COMPLETED after 422.2094
+[13:36:33.129394 INFO] 2020-07-03T13:36:33-0600: [Worker(delayed_job.worker_10 host:JKIM4-33723S pid:16708)] 2 jobs processed at 0.0026 j/s, 0 failed
+[13:36:33.335390 INFO] waiting
+[13:36:38.349400 INFO] waiting
+[13:36:42.225402 INFO] 2020-07-03T13:36:42-0600: [Worker(delayed_job.worker_8 host:JKIM4-33723S pid:4636)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c0472a1407902fe4c0) (queue=simulations) COMPLETED after 431.9799
+[13:36:42.243403 INFO] 2020-07-03T13:36:42-0600: [Worker(delayed_job.worker_8 host:JKIM4-33723S pid:4636)] 2 jobs processed at 0.0026 j/s, 0 failed
+[13:36:43.416402 INFO] waiting
+[13:36:48.421409 INFO] waiting
+[13:36:53.436419 INFO] waiting
+[13:36:58.469424 INFO] waiting
+[13:37:03.517428 INFO] waiting
+[13:37:08.531430 INFO] waiting
+[13:37:13.546436 INFO] waiting
+[13:37:18.555441 INFO] waiting
+[13:37:23.572455 INFO] waiting
+[13:37:28.579456 INFO] waiting
+[13:37:33.588461 INFO] waiting
+[13:37:38.605467 INFO] waiting
+[13:37:43.620475 INFO] waiting
+[13:37:48.630628 INFO] waiting
+[13:37:53.660480 INFO] waiting
+[13:37:58.677623 INFO] waiting
+[13:38:03.692648 INFO] waiting
+[13:38:08.708506 INFO] waiting
+[13:38:13.725509 INFO] waiting
+[13:38:18.743526 INFO] waiting
+[13:38:23.757512 INFO] waiting
+[13:38:28.760686 INFO] waiting
+[13:38:33.784691 INFO] waiting
+[13:38:38.797698 INFO] waiting
+[13:38:43.810700 INFO] waiting
+[13:38:48.824705 INFO] waiting
+[13:38:53.837713 INFO] waiting
+[13:38:58.851715 INFO] waiting
+[13:39:03.922724 INFO] waiting
+[13:39:04.063725 INFO] 2020-07-03T13:39:04-0600: [Worker(delayed_job.worker_3 host:JKIM4-33723S pid:16488)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4ca) (queue=simulations) COMPLETED after 165.8875
+[13:39:04.077729 INFO] 2020-07-03T13:39:04-0600: [Worker(delayed_job.worker_3 host:JKIM4-33723S pid:16488)] 3 jobs processed at 0.0033 j/s, 0 failed
+[13:39:05.741727 INFO] 2020-07-03T13:39:05-0600: [Worker(delayed_job.worker_4 host:JKIM4-33723S pid:19888)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c6) (queue=simulations) COMPLETED after 219.8550
+[13:39:05.747725 INFO] 2020-07-03T13:39:05-0600: [Worker(delayed_job.worker_4 host:JKIM4-33723S pid:19888)] 3 jobs processed at 0.0033 j/s, 0 failed
+[13:39:05.856728 INFO] 2020-07-03T13:39:05-0600: [Worker(delayed_job.worker_5 host:JKIM4-33723S pid:19308)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c7) (queue=simulations) COMPLETED after 218.6473
+[13:39:05.862726 INFO] 2020-07-03T13:39:05-0600: [Worker(delayed_job.worker_5 host:JKIM4-33723S pid:19308)] 3 jobs processed at 0.0033 j/s, 0 failed
+[13:39:07.149727 INFO] 2020-07-03T13:39:07-0600: [Worker(delayed_job.worker_1 host:JKIM4-33723S pid:5412)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c8) (queue=simulations) COMPLETED after 216.9359
+[13:39:07.164730 INFO] 2020-07-03T13:39:07-0600: [Worker(delayed_job.worker_1 host:JKIM4-33723S pid:5412)] 3 jobs processed at 0.0033 j/s, 0 failed
+[13:39:09.131727 INFO] waiting
+[13:39:14.144734 INFO] waiting
+[13:39:19.157737 INFO] waiting
+[13:39:24.171262 INFO] waiting
+[13:39:24.843265 INFO] 2020-07-03T13:39:24-0600: [Worker(delayed_job.worker_6 host:JKIM4-33723S pid:6100)] Job DjJobs::RunSimulateDataPoint#perform (id=5eff85c1472a1407902fe4c9) (queue=simulations) COMPLETED after 212.8615
+[13:39:24.857262 INFO] 2020-07-03T13:39:24-0600: [Worker(delayed_job.worker_6 host:JKIM4-33723S pid:6100)] 3 jobs processed at 0.0032 j/s, 0 failed
+[13:39:29.206266 INFO] Finished running batchrun method
+[13:39:29.355273 INFO] 2020-07-03T13:39:29-0600: [Worker(delayed_job.server host:JKIM4-33723S pid:1936)] Job AnalysisLibrary::BatchRun (id=5eff85b8472a145460a0ef1a) (queue=analyses) COMPLETED after 946.8115
+[13:39:29.371270 INFO] 2020-07-03T13:39:29-0600: [Worker(delayed_job.server host:JKIM4-33723S pid:1936)] 2 jobs processed at 0.0021 j/s, 0 failed

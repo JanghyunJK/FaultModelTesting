@@ -1,0 +1,223 @@
+{
+  "data_point": {
+    "_id": "98b6aafd-388b-4122-946f-73bf3f4e223d",
+    "analysis_id": "f451ead3-737c-4d95-90b0-9630641c087f",
+    "created_at": "2020-07-03T19:23:42.240Z",
+    "da_descriptions": [
+      {
+        "name": "duct_fouling",
+        "description": "Ducts are fouled by dust that accumulates in the filter and/or fins of heat exchangers in the indoor air ducts. The accumulation increases the flow resistance of the air duct and changes the airflow and pressure drop across the duct in accordance with the controls of the fan rotational speed. This fault is categorized as a fault that occur in the ventilation system during the operation stage. This fault measure is based on an empirical model and simulates duct fouling by modifying either Fan:ConstantVolume, Fan:VariableVolume, Fan:OnOff, or Fan:VariableVolume objects in EnergyPlus assigned to the air system. F is the fault intensity defined as the reduction in evaporator coil airflow at full load condition as a ratio of the design airflow rate with the application range of 0 to 0.5 (50% reduction)."
+      },
+      {
+        "name": "economizer_opening_stuck",
+        "description": "Stuck dampers associated with economizers can be caused by seized actuators, broken linkages, economizer control system failures, or the failure of sensors that are used to determine damper position. In extreme cases, dampers stuck at either 100% open or closed can have a serious impact on system energy consumption or occupant comfort in the space. This fault is categorized as a fault that occur in the economizer system (damper) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates a stuck damper by modifying the Controller:OutdoorAir object in EnergyPlus. The fault intensity (F) for this fault is defined as the ratio of economizer damper at the stuck position (0 = fully closed, 1 = fully open)."
+      },
+      {
+        "name": "excessive_infiltration",
+        "description": "Excessive infiltration around the building envelope occurs by the unintentional introduction of outside air into a building, typically through cracks in the building envelope and through use of windows and doors. Infiltration is driven by pressure differences between indoors and outdoors of the building caused by wind and by air buoyancy forces known commonly as the stack effect. Excessive infiltration can affect thermal comfort, indoor air quality, heating and cooling demand, and moisture damage of building envelope components. This fault is categorized as a fault that occur in the building envelope during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates an excessive infiltration by modifying ZoneInfiltration:DesignFlowRate or ZoneInfiltration:EffectiveLeakageArea objects in EnergyPlus. The fault intensity (F) is defined as the ratio of excessive infiltration around the building envelope compared to the non-faulted condition."
+      },
+      {
+        "name": "hvac_setback_error_delayed_onset",
+        "description": "Thermostat schedules are employed to raise set points for cooling and lower set points for heating at night, to switch fan operation from being continuously on during occupied times to being coupled to cooling or heating demands at other times, and to close ventilation dampers during unoccupied periods. Faults can occur due to malfunctioning, unprogrammed, or incorrectly programmed or scheduled thermostats, leading to increased energy consumption and/or compromised comfort and air quality. This fault is categorized as a fault that occur in the HVAC system (controller) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of overnight HVAC setback being delayed until unoccupied hours by modifying the Schedule:Compact object in EnergyPlus assigned to thermostat set point schedules. The fault intensity (F) defined as the delay in onset of overnight HVAC setback (in hours)."
+      },
+      {
+        "name": "hvac_setback_error_early_termination",
+        "description": "Thermostat schedules are employed to raise set points for cooling and lower set points for heating at night, to switch fan operation from being continuously on during occupied times to being coupled to cooling or heating demands at other times, and to close ventilation dampers during unoccupied periods. Faults can occur due to malfunctioning, unprogrammed, or incorrectly programmed or scheduled thermostats, leading to increased energy consumption and/or compromised comfort and air quality. This fault is categorized as a fault that occur in the HVAC system (controller) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of overnight HVAC setback being terminated earlier during unoccupied hours by modifying the Schedule:Compact object in EnergyPlus assigned to thermostat set point schedules. The fault intensity (F) is defined as the early termination of overnight HVAC setback (in hours)."
+      },
+      {
+        "name": "improper_time_delay_setting_in_occupancy_sensors",
+        "description": "Compared to scheduled lighting operation, using an occupancy sensor for the lighting control is more suitable when the space is intermittently occupied. In other words, when the space is left with the lights on for large amount of portion throughout the day, it is better to use the occupancy sensor to save the lighting energy consumption. However, setting a time delay in the occupancy sensor is a trade-off between occupantΓÇÖs visual discomfort and energy savings. If the time delay is too short, chances increase for energy savings. But on the other side, lights being on and off too often increases visual discomfort for occupants in the space. 15 minutes of time delay is common in the real application, however, the setting can be improperly implemented in the field. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of an improper time delay setting in occupancy sensors by modifying the Schedule:Compact object in EnergyPlus assigned to lighting schedules. This fault is categorized as a fault that occur in the lighting system (controller) during the operation stage. The fault intensity (F) is defined as the delayed time setting (in hours)."
+      },
+      {
+        "name": "hvac_setback_error_no_overnight_setback",
+        "description": "Thermostat schedules are employed to raise set points for cooling and lower set points for heating at night, to switch fan operation from being continuously on during occupied times to being coupled to cooling or heating demands at other times, and to close ventilation dampers during unoccupied periods. Faults can occur due to malfunctioning, unprogrammed, or incorrectly programmed or scheduled thermostats, leading to increased energy consumption and/or compromised comfort and air quality. This fault is categorized as a fault that occur in the HVAC system (controller) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of having no overnight setback by modifying the Schedule:Compact object in EnergyPlus assigned to thermostat set point schedules. The fault intensity (F) is defined as the absence of overnight HVAC setback (binary)."
+      },
+      {
+        "name": "lighting_setback_error_delayed_onset",
+        "description": "Lighting should be turned off or at least reduced during unoccupied hours. However, some commissioning studies have found noticeable lighting energy use at night either because lighting schedules are improperly configured or occupants forget to turn off lights when vacating a building. This fault is categorized as a fault that occur in the lighting system (controller) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of lighting setback being delayed until unoccupied hours by modifying the Schedule:Compact object in EnergyPlus assigned to lighting schedules. The fault intensity (F) is defined as the delay in the onset of overnight lighting setback (in hours)."
+      },
+      {
+        "name": "lighting_setback_error_early_termination",
+        "description": "Lighting should be turned off or at least reduced during unoccupied hours. However, some commissioning studies have found noticeable lighting energy use at night either because lighting schedules are improperly configured or occupants forget to turn off lights when vacating a building. This fault is categorized as a fault that occur in the lighting system (controller) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of the lighting setback being terminated earlier during unoccupied hours by modifying the Schedule:Compact object in EnergyPlus assigned to lighting schedules. The fault intensity (F) is defined as the early termination of overnight lighting setback (in hours)."
+      },
+      {
+        "name": "lighting_setback_error_no_overnight_setback",
+        "description": "Lighting should be turned off or at least reduced during unoccupied hours. However, some commissioning studies have found noticeable lighting energy use at night either because lighting schedules are improperly configured or occupants forget to turn off lights when vacating a building. This fault is categorized as a fault that occur in the lighting system (controller) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the effect of having no setback during unoccupied hours by modifying the Schedule:Compact object in EnergyPlus assigned to lighting schedules. The fault intensity (F) is defined as the absence of overnight lighting setback (binary)."
+      },
+      {
+        "name": "oversized_equipment_at_design",
+        "description": "Oversizing of heating and cooling equipment is commonly accepted in real-world applications. In a previous study, more than 40% of the units surveyed were oversized by more than 25%, and 10% were oversized by more than 50%. System oversizing can ensure that the highest heating and cooling demands are met. But excessive oversizing of units can lead to increased equipment cycling with increased energy use due to efficiency losses. This fault is categorized as a fault that occur in the HVAC system during the design stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates oversized equipment by modifying Sizing:Parameters object in EnergyPlus. The fault intensity (F) is defined as the ratio of increased sizing compared to the correct sizing."
+      },
+      {
+        "name": "thermostat_bias",
+        "description": "Drift of the thermostat temperature sensor over time can lead to increased energy use and/or reduced occupant comfort. This fault is categorized as a fault that occur in the indoor thermostats (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates a biased thermostat by modifying the Schedule:Compact object in EnergyPlus assigned to heating and cooling set points. The fault intensity (F) is defined as the thermostat measurement bias (K). A positive number means that the sensor is reading a temperature higher than the true temperature."
+      },
+      {
+        "name": "air_handling_unit_fan_motor_degradation",
+        "description": "Fan motor degradation occurs due to bearing and stator winding faults, leading to a decrease in motor efficiency and an increase in overall fan power consumption. This fault is categorized as a fault that occur in the ventilation system (fan) during the operation stage. This fault measure is based on a semi-empirical model and simulates the air handling unit fan motor degradation by modifying either the Fan:ConstantVolume, Fan:VariableVolume, or the Fan:OnOff objects in EnergyPlus assigned to the ventilation system. The fault intensity (F) for this fault is defined as the ratio of fan motor efficiency degradation with the application range of 0 to 0.3 (30% degradation)."
+      },
+      {
+        "name": "biased_economizer_sensor_mixed_t",
+        "description": "When sensors drift and are not regularly calibrated, it causes a bias. Sensor readings often drift from their calibration with age, causing equipment control algorithms to produce outputs that deviate from their intended function. This fault is categorized as a fault that occur in the economizer system (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the biased economizer sensor (mixed air temperature) by modifying the SetpointManager object assigned to the economizer. The fault intensity (F) is defined as the biased temperature level (K). A positive number means that the sensor is reading a temperature higher than the true temperature."
+      },
+      {
+        "name": "biased_economizer_sensor_outdoor_rh",
+        "description": "When sensors drift and are not regularly calibrated, it causes a bias. Sensor readings often drift from their calibration with age, causing equipment control algorithms to produce outputs that deviate from their intended function. A positive bias in the economizer outdoor relative humidity (RH) sensor leads to a higher estimate in the outdoor air enthalpy, which shifts the economizer switch-off point and could cause higher cooling or heating energy consumption. This fault is categorized as a fault that occur in the economizer system (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the biased economizer sensor (outdoor air RH) by modifying the Controller:OutdoorAir object in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the biased RH level (%). A positive number means that the sensor is reading a relative humidity higher than the true relative humidity."
+      },
+      {
+        "name": "biased_economizer_sensor_oat",
+        "description": "When sensors drift and are not regularly calibrated, it causes a bias. Sensor readings often drift from their calibration with age, causing equipment control algorithms to produce outputs that deviate from their intended function. This fault is categorized as a fault that occur in the economizer system (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the biased economizer sensor (outdoor temperature) by modifying Controller:OutdoorAir object in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the biased temperature level (K). A positive number means that the sensor is reading a temperature higher than the true temperature."
+      },
+      {
+        "name": "biased_economizer_sensor_return_rh",
+        "description": "When sensors drift and are not regularly calibrated, it causes a bias. Sensor readings often drift from their calibration with age, causing equipment control algorithms to produce outputs that deviate from their intended function. This fault is categorized as a fault that occur in the economizer system (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the biased economizer sensor (return relative humidity) by modifying Controller:OutdoorAir object in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the biased RH level (%). A positive number means that the sensor is reading a relative humidity higher than the true relative humidity."
+      },
+      {
+        "name": "biased_economizer_sensor_return_t",
+        "description": "When sensors drift and are not regularly calibrated, it causes a bias. Sensor readings often drift from their calibration with age, causing equipment control algorithms to produce outputs that deviate from their intended function. This fault is categorized as a fault that occur in the economizer system (sensor) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the biased economizer sensor (return temperature) by modifying Controller:OutdoorAir object in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the biased temperature level (K). A positive number means that the sensor is reading a temperature higher than the true temperature."
+      },
+      {
+        "name": "condenser_fan_degradation",
+        "description": "Motor efficiency degrades when a motor suffers from a bearing or a stator winding fault. This fault causes the motor to draw higher electrical current without changing the fluid flow. Both a bearing fault and a stator winding fault can be modeled by increasing the power consumption of the condenser fan without changing the airflow of the condenser fan. This fault is categorized as a fault that occur in the vapor compression system during the operation stage. This fault measure is based on an empirical model and simulates the condenser fan degradation by modifying the Coil:Cooling:DX:SingleSpeed object in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the reduction in motor efficiency as a fraction of the non-faulted motor efficiency with the application range of 0 to 0.3 (30% degradation)."
+      },
+      {
+        "name": "condenser_fouling",
+        "description": "Condenser fouling occurs when litter, dirt, or dust accumulates on or between the fins of a condenser of an air conditioner located in the outdoor environment. The blockage reduces the airflow across the condenser and increases the condensing temperature in the refrigerant circuit. The elevated temperature increases the pressure difference across the compressor and reduces the equipment efficiency. This fault is categorized as a fault that occur in the vapor compression system during the operation stage. This fault measure is based on an empirical model and simulates condenser fouling by modifying the Coil:Cooling:DX:SingleSpeed or Coil:Cooling:DX:TwoStageWithHumiditycontrolmodes object in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) for this fault is defined as the ratio of reduction in condenser coil airflow at full load with the application range of 0 to 0.5 (50% reduction)."
+      },
+      {
+        "name": "Option 1 Name",
+        "description": "Option 1 Description: Evaporator fouling occurs when the filter upstream of a cooling/evaporator coil is fouled. This fault decreases the evaporator saturation temperature, which decreases overall cooling capacity, sensible heat ratio (SHR), and coefficient of performance. The lower SHR leads to an increased latent load to meet a particular sensible load. This fault is categorized as a fault that occur in the vapor compression system during the operation stage. This fault measure is based on an empirical model and simulates evaporator fouling by modifying the Coil:Cooling:DX:SingleSpeed or Coil:Cooling:DX:TwoStageWithHumiditycontrolmodes object in EnergyPlus assigned to the heating and cooling system. F is the fault intensity defined as the reduction in evaporator coil airflow at full load condition as a ratio of the design airflow rate with the application range of 0 to 0.5 (50% reduction)."
+      },
+      {
+        "name": "liquid_line_restriction",
+        "description": "A liquid-line restriction fault occurs when particles accumulate within the refrigerant filter located between the condenser and the expansion valve in the refrigerant circuit of a vapor compression cycle. The accumulation increases the flow resistance of the refrigerant circuit and the pressure difference across the compressor. It also reduces the evaporating temperature and leads to lower cooling capacity, efficiency, and SHR. The lower SHR leads to increased latent load to meet a particular sensible load. This fault is categorized as a fault that occur in the vapor compression system during the operation stage. This fault measure is based on an empirical model and simulates a liquid-line restriction by modifying the Coil:Cooling:DX:SingleSpeed or Coil:Cooling:DX:TwoStageWithHumiditycontrolmodes objects in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the ratio of increase in the pressure difference between the condenser outlet and evaporator inlet due to the restriction with the application range of 0 to 0.3 (30% increase)."
+      },
+      {
+        "name": "non_standard_charging",
+        "description": "Forty four user inputs (DX coil where the fault occurs / Percentage reduction of refrigerant charge level / rated cooling capacity / rated sensible heat ratio / rated volumetric flow rate / maximum fault intensity / undercharge and overcharge empirical model coefficients / minimum-maximum evaporator air inlet wet-bulb temperature / minimum-maximum condenser air inlet dry-bulb temperature / minimum/maximum rated COP / percentage change of UA with increase of fault level / time required for fault to reach full level / fault starting month / fault starting date / fault starting time / fault ending month / fault ending date / fault ending time) can be defined or remained with default values. Based on user inputs, the cooling capacity (Q ╠ç_cool) and EIR in the DX cooling coil model is recalculated to reflect the faulted operation. The time required for the fault to reach the full level is only required when the user wants to model fault evolution. If the fault evolution is not necessary for the user, it can be defined as zero and F will be imposed as a step function with the user defined value. However, by defining the time required for the fault to reach the full level, fault starting month/date/time and fault ending month/date/time, the adjustment factor AF is calculated at each time step starting from the starting month/date/time to gradually impose F based on the user specified time frame. AF is calculated as follows, AF_current = AF_previous + dt/tau where AF_current is the adjustment factor calculated based on the previously calculated adjustment factor (AF_previous), simulation timestep (dt) and the time required for the fault to reach the full level (tau)."
+      },
+      {
+        "name": "presence_of_non_condensable",
+        "description": "When an air conditioner, heat pump, or refrigeration unit is not properly evacuated prior to being charged with refrigerant, the unit runs with a mixture of air and refrigerant. Because it is noncondensable, the air inside the refrigerant circuit typically is trapped in the high-pressure vapor downstream of the compressor, and the pressure difference across the compressor and the compressor power consumption increase. This fault is categorized as a fault that occur in the vapor compression system during the operation stage. This fault measure is based on an empirical model and simulates the presence of the noncondensable by modifying the Coil:Cooling:DX:SingleSpeed or Coil:Cooling:DX:TwoStageWithHumiditycontrolmodes objects in EnergyPlus assigned to the heating and cooling system. The fault intensity (F) is defined as the ratio of the mass of noncondensable in the refrigerant circuit to the mass of noncondensable that the refrigerant circuit can hold at standard atmospheric pressure with the application range of 0 to 0.6 (60% noncondensable)."
+      },
+      {
+        "name": "return_air_duct_leakages",
+        "description": "The return duct of an air system typically operates at negative pressure, thus the leakage in the return duct (outside of conditioned space) results in increased heating and cooling load due to unconditioned air being drawn into the return duct and mixing with return air from conditioned spaces. This fault is categorized as a fault that occur in the ventilation system (duct) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates the return air leakage by modifying the Controller:OutdoorAir object in EnergyPlus. The fault intensity (F) is defined as the unconditioned air introduced to return air stream at full load condition as a ratio of the total return airflow rate."
+      },
+      {
+        "name": "supply_air_duct_leakages",
+        "description": "Duct leakage can be caused by torn or missing external duct wrap, poor workmanship around duct takeoffs and fittings, disconnected ducts, improperly installed duct mastic, and temperature and pressure cycling. Conditioned air leaking to an unconditioned space in buildings increases the equipment heating or cooling demand and can increase fan power for variable air volume systems. This fault is categorized as a fault that occur in the ventilation system (duct) during the operation stage. This fault measure is based on a physical model where certain parameter(s) is changed in EnergyPlus to mimic the faulted operation; thus simulates supply air leakage by modifying the ZoneHVAC:AirDistributionUnit object in EnergyPlus. The fault intensity (F) is defined as the ratio of the leakage flow relative to supply flow."
+      },
+      {
+        "name": "Option 1 Name",
+        "description": "Option 1 Description: This measure creates high level tables and charts pulling both from model inputs and EnergyPlus results. It has building level information as well as detail on space types, thermal zones, HVAC systems, envelope characteristics, and economics. Click the heading above a chart to view a table of the chart data."
+      }
+    ],
+    "description": "Autogenerated 20",
+    "internal_ip_address": null,
+    "ip_address": null,
+    "job_id": "5eff85c1472a1407902fe4c4",
+    "name": "EvaporatorFouling",
+    "results": {
+    },
+    "run_end_time": null,
+    "run_queue_time": "2020-07-03T19:23:45.102+00:00",
+    "run_start_time": "2020-07-03T19:29:34.878+00:00",
+    "sdp_log_file": [
+
+    ],
+    "seed": "",
+    "set_variable_values": {
+      "13f51fb8-e40d-4531-8996-2d07c3710c62": true,
+      "e1002542-b42e-4f73-8b45-8ec32580a2a2": true,
+      "edcd6022-8d46-4fb3-9835-fb9a33e65f84": true,
+      "96e1bdab-af2d-4f2f-b357-36155213553b": true,
+      "5fda1afc-16dd-493d-89ea-325595107d4d": true,
+      "618b6f3f-c9af-4804-b008-1fac9b821a12": true,
+      "9dd7257b-ddb1-4164-beac-81de0dae1284": true,
+      "c54d8fb1-b337-426f-bd32-7fbe9af5036b": true,
+      "f8fb9347-7d81-454e-81a3-b9251aff75b0": true,
+      "6a45025f-23f6-46f2-8869-ec745a46422e": true,
+      "f1a46c29-1463-4bf9-8ad0-e97d80e8f9bb": false,
+      "56e383ea-da19-4b88-83fc-d7eaab02d167": true,
+      "6dbe691e-1a6b-4f7b-bb57-188e9354c3ce": true,
+      "6ed0c80a-158a-4830-bced-11a5c275faf4": true,
+      "24410778-326e-46d7-acd9-7fbcb807817a": true,
+      "cb9d4190-b6fb-448f-a097-a77a488c4e7e": true,
+      "494eccf4-32cf-44ba-aa31-49f9b130e634": true,
+      "053ac3f8-6008-4cef-90d3-32428be8ddd4": true,
+      "6c0e591e-64d7-4008-960d-05d8dc05bea0": true,
+      "e08255a7-936d-42d4-ac18-510d3cd3562f": true,
+      "03b40e4d-55d9-4bf3-9720-30478db1d278": true,
+      "631fd4b0-0563-41a2-9c70-9e8d54d182ce": true,
+      "ecf76ea1-bc45-4bdd-a948-1c97575a622d": true,
+      "abec6c25-a344-4ebe-a7c1-ca9492577443": true,
+      "699927b3-08dd-4eaf-a635-05e740a1d897": true,
+      "5793fdd6-e483-4747-80c9-da147d94d170": true
+    },
+    "status": "started",
+    "status_message": "",
+    "updated_at": "2020-07-03T19:29:34.964Z",
+    "uuid": "98b6aafd-388b-4122-946f-73bf3f4e223d",
+    "variable_values": null,
+    "weather_file": "",
+    "worker_logs": {
+    },
+    "set_variable_values_names": {
+      "air_handling_unit_fan_motor_degradation.__SKIP__": true,
+      "biased_economizer_sensor_mixed_t.__SKIP__": true,
+      "biased_economizer_sensor_oat.__SKIP__": true,
+      "biased_economizer_sensor_outdoor_rh.__SKIP__": true,
+      "biased_economizer_sensor_return_rh.__SKIP__": true,
+      "biased_economizer_sensor_return_t.__SKIP__": true,
+      "condenser_fan_degradation.__SKIP__": true,
+      "condenser_fouling.__SKIP__": true,
+      "duct_fouling.__SKIP__": true,
+      "economizer_opening_stuck.__SKIP__": true,
+      "evaporator_fouling.__SKIP__": false,
+      "excessive_infiltration.__SKIP__": true,
+      "hvac_setback_error_delayed_onset.__SKIP__": true,
+      "hvac_setback_error_early_termination.__SKIP__": true,
+      "hvac_setback_error_no_overnight_setback.__SKIP__": true,
+      "improper_time_delay_setting_in_occupancy_sensors.__SKIP__": true,
+      "lighting_setback_error_delayed_onset.__SKIP__": true,
+      "lighting_setback_error_early_termination.__SKIP__": true,
+      "lighting_setback_error_no_overnight_setback.__SKIP__": true,
+      "liquid_line_restriction.__SKIP__": true,
+      "non_standard_charging.__SKIP__": true,
+      "oversized_equipment_at_design.__SKIP__": true,
+      "presence_of_non_condensable.__SKIP__": true,
+      "return_air_duct_leakages.__SKIP__": true,
+      "supply_air_duct_leakages.__SKIP__": true,
+      "thermostat_bias.__SKIP__": true
+    },
+    "set_variable_values_display_names": {
+      "Skip Air Handling Unit Fan Motor Degradation": true,
+      "Skip Biased Economizer Sensor: Mixed Temperature": true,
+      "Skip Biased Economizer Sensor: Outdoor Temperature": true,
+      "Skip Biased Economizer Sensor: Outdoor RH": true,
+      "Skip Biased Economizer Sensor: Return RH": true,
+      "Skip Biased Economizer Sensor: Return Temperature": true,
+      "Skip Condenser Fan Degradation": true,
+      "Skip Condenser Fouling": true,
+      "Skip Duct Fouling": true,
+      "Skip Economizer Opening Stuck": true,
+      "Skip Evaporator Fouling": false,
+      "Skip Excessive Infiltration": true,
+      "Skip HVAC Setback Error: Delayed Onset": true,
+      "Skip HVAC Setback Error: Early Termination": true,
+      "Skip HVAC Setback Error: No Overnight Setback": true,
+      "Skip Improper Time Delay Setting in Occupancy Sensors": true,
+      "Skip Lighting Setback Error: Delayed Onset": true,
+      "Skip Lighting Setback Error: Early Termination": true,
+      "Skip Lighting Setback Error: No Overnight Setback": true,
+      "Skip Liquid-Line Restriction": true,
+      "Skip Nonstandard Charging": true,
+      "Skip Oversized Equipment at Design": true,
+      "Skip Presence Of Noncondensable": true,
+      "Skip Return Air Duct Leakages": true,
+      "Skip Supply Air Duct Leakages": true,
+      "Skip Thermostat Measurement Bias": true
+    }
+  }
+}
